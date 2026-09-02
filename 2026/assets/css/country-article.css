@@ -1,0 +1,325 @@
+.country-article {
+  margin: 0 auto;
+  padding: 5vh 0 10vh;
+}
+
+.country-article-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 24px; */
+  margin: 0 auto 28px;
+  /* padding-bottom: 20px; */
+  border-bottom: 1px solid var(--line);
+}
+
+.country-article-kicker {
+  margin: 0 0 4px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.country-article-heading h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.country-article-back {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid var(--blue);
+  border-radius: 999px;
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .country-article-back:hover {
+    background: var(--blue-light);
+  }
+}
+
+.country-article h2 {
+  /* margin: 38px auto 18px; */
+  padding-bottom: 10px;
+  /* border-bottom: 1px solid var(--line); */
+  color: var(--navy);
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.country-article h3 {
+  margin: 28px auto 12px;
+  color: var(--blue);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.country-article h4 {
+  margin: 12px auto 6px;
+  color: var(--blue);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.country-article > p:not(.article-lead):not(.country-source) {
+  
+  margin: 0 auto 18px;
+  color: var(--ink-2);
+  font-size: 16px;
+  line-height: 2;
+}
+
+.country-source {
+  margin: 0 auto 28px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.country-source a {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.country-article .content-list {
+  margin: 0 auto 22px;
+  line-height: 2;
+}
+
+.country-article .data-table-wrap {
+  margin: 0 auto;
+}
+
+.article-sheet-header {
+  padding: 10px 14px 8px;
+  text-align: center;
+}
+
+.article-sheet-header p {
+  margin: 0;
+  color: #111;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.article-sheet-header a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.china-article-row {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  border-top: 1px solid #222;
+}
+
+.china-article-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 10px 5px;
+  border-right: 1px solid #222;
+  color: #222;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1.45;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.china-article-body {
+  min-width: 0;
+  padding: 8px 10px;
+}
+
+.china-article-body p {
+  margin: 0 0 5px;
+  color: #222;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.65;
+}
+
+.china-article-body p:last-child {
+  margin-bottom: 0;
+}
+
+.china-article-body .content-list {
+  margin: 0 0 5px;
+  padding-left: 22px;
+  color: #222;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.china-article-body .content-list li::marker {
+  color: #000;
+}
+
+.china-patent-table {
+  min-width: 0;
+  border: 1px solid #222;
+  color: #111;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.china-patent-table th,
+.china-patent-table td {
+  padding: 4px 7px;
+  border: 1px solid #b8bec6;
+  vertical-align: middle;
+}
+
+.china-patent-table thead th {
+  background: #fff;
+  color: #111;
+  text-align: center;
+}
+
+.china-patent-table tbody tr:nth-child(even) {
+  background: #fff;
+}
+
+.china-patent-table tbody th {
+  color: #111;
+}
+
+/* 巴西頁沿用中國頁版型，依巴西四欄資料調整欄寬 */
+.brazil-patent-table {
+  table-layout: fixed;
+}
+
+.brazil-patent-table th:nth-child(1) { width: 18%; }
+.brazil-patent-table th:nth-child(2) { width: 18%; }
+.brazil-patent-table th:nth-child(3) { width: 25%; }
+.brazil-patent-table th:nth-child(4) { width: 39%; }
+
+@media (max-width: 640px) {
+  .country-article {
+    padding-top: 4vh;
+  }
+
+  .country-article h2 {
+    font-size: 21px;
+  }
+
+  .country-article > p:not(.article-lead):not(.country-source) {
+    font-size: 15px;
+    line-height: 1.9;
+  }
+
+  .country-article-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .china-article-row {
+    display: block;
+  }
+
+  .china-article-label {
+    justify-content: flex-start;
+    min-height: 42px;
+    padding: 8px 12px;
+    border-right: 0;
+    border-bottom: 1px solid #222;
+    writing-mode: horizontal-tb;
+  }
+
+  .china-article-body {
+    padding: 10px;
+  }
+
+  .china-patent-table {
+    font-size: 12px;
+  }
+}
+
+/* Shared article treatment: match the PCT / EPC / REUD reading layout. */
+.article-sheet {
+  border: 0;
+  background: transparent;
+}
+
+.article-row {
+  margin-top: 34px;
+}
+
+.article-row > .article-section-title {
+  margin-top: 0;
+}
+
+.article-body {
+  min-width: 0;
+}
+
+.article-body p {
+  margin: 0 0 18px;
+  color: var(--ink-2);
+  font-size: 16px;
+  line-height: 2;
+}
+
+.article-body p:last-child {
+  margin-bottom: 0;
+}
+
+.article-body .content-list {
+  margin-bottom: 24px;
+}
+
+/* Reuse the shared data-table treatment used by the foreign-patent articles. */
+.country-article .data-table.china-patent-table {
+  width: 100%;
+  min-width: 760px;
+  border: 0;
+  border-collapse: collapse;
+  color: var(--ink-2);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.country-article .data-table.china-patent-table th,
+.country-article .data-table.china-patent-table td {
+  padding: 13px 14px;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.country-article .data-table.china-patent-table thead th {
+  background: var(--blue-light);
+  color: var(--ink);
+  font-weight: 800;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.country-article .data-table.china-patent-table tbody tr:nth-child(even) {
+  background: rgba(11, 95, 168, .025);
+}
+
+.country-article .data-table.china-patent-table tbody th {
+  color: var(--ink);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .article-row {
+    margin-top: 28px;
+  }
+
+  .article-body p {
+    font-size: 15px;
+    line-height: 1.9;
+  }
+}
