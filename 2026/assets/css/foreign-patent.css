@@ -1,0 +1,687 @@
+.foreign-patent-content {
+  padding-top: 3vh;
+}
+
+.foreign-patent-tabs {
+  align-items: stretch;
+  /* flex-wrap: wrap; */
+}
+
+/* .foreign-patent-tabs .links-tab {
+  white-space: nowrap;
+} */
+
+/* .foreign-patent-panel {
+  padding: 28px 0 0;
+} */
+
+.foreign-patent-panel.is-active {
+  animation: foreign-patent-panel-in .45s var(--ease-out) both;
+}
+
+@keyframes foreign-patent-panel-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.foreign-patent-panel h2 {
+  margin: 0 0 24px;
+  color: var(--ink);
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.foreign-patent-panel h3 {
+  margin: 28px 0 8px;
+  color: var(--blue);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.foreign-patent-panel h4 {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--blue);
+  font-size: 16px;
+  line-height: 1.5;
+  padding-left: 1.5rem;
+}
+
+.foreign-patent-panel p {
+  color: var(--ink-2);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.9;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.foreign-patent-panel p:last-child {
+  margin-bottom: 0;
+}
+
+.data-table-wrap {
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  color: var(--ink-2);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.data-table th,
+.data-table td {
+  padding: 13px 14px;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.data-table thead th {
+  background: var(--blue-light);
+  color: var(--ink);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.data-table tbody tr:nth-child(even) {
+  background: rgba(11, 95, 168, .025);
+}
+
+.data-table tbody th {
+  color: var(--ink);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+/* 儲存格內的多點備註 */
+.cell-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.cell-list > li + li {
+  margin-top: 5px;
+}
+
+/* EUTM 申請流程：中文步驟名 ＋ 英文原文 */
+.trademark-flow > li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+}
+
+.trademark-flow > li > b {
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.trademark-flow > li > span {
+  color: var(--muted);
+  font-size: 13px;
+  letter-spacing: .01em;
+}
+
+.content-list {
+  margin-top: 16px;
+  padding-left: 22px;
+  color: var(--ink-2);
+  font-size: 15px;
+  line-height: 1.9;
+  list-style: circle;
+}
+
+.content-list li::marker {
+  color: var(--blue);
+}
+
+.patent-search-list {
+  align-items: flex-start;
+}
+
+/* 國家制度：地區 tab + 國家旗幟按鈕 */
+.country-regions {
+  max-width: calc(100% - 2rem);
+  margin: 0 auto;
+}
+
+.country-region {
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr);
+  align-items: center;
+  gap: 28px;
+  min-height: 100px;
+  padding: 2vh 0;
+  border-bottom: 1px solid var(--line);
+}
+
+/* .country-region:last-child {
+  border-bottom: 1px solid var(--line);
+} */
+
+.country-region-title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.country-region-title small {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.country-region-title strong {
+  color: var(--ink);
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 1.35;
+}
+
+.country-region-panel[hidden] {
+  display: none;
+}
+
+.country-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.country-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 11px 16px;
+  border: 1.5px solid #e4ecf5;
+  border-radius: 999px;
+  background: #fff;
+  box-shadow: 0 4px 14px rgba(35, 65, 100, .05);
+  color: var(--ink-2);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .2s, border-color .2s, color .2s, box-shadow .2s;
+}
+
+.country-button i,
+.country-detail-title i {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.country-button:focus-visible {
+  border-color: var(--blue-2);
+  background: var(--blue-light);
+  color: var(--blue);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .country-button:hover {
+    border-color: #a8c8e8;
+    background: var(--blue-light);
+    color: var(--blue);
+  }
+}
+
+.country-detail {
+  margin-top: 28px;
+  padding: 20px 22px;
+  border-left: 4px solid var(--blue);
+  background: var(--blue-light);
+}
+
+.country-detail-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--navy);
+  font-size: 20px;
+}
+
+.country-detail p {
+  margin: 8px 0 0;
+  color: var(--ink-2);
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+@media (max-width: 640px) {
+  .foreign-patent-content {
+    padding-top: 1vh;
+  }
+
+  .foreign-patent-panel h2 {
+    font-size: 24px;
+  }
+
+  .foreign-patent-tabs .links-tab {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .country-regions {
+    max-width: 100%;
+  }
+
+  .country-button {
+    flex: 1 1 calc(50% - 10px);
+    justify-content: center;
+  }
+
+  .country-region {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    min-height: 0;
+    margin: 0;
+    padding: 24px 0;
+  }
+
+  .country-region-title strong {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 900px) and (min-width: 641px) {
+  .country-region {
+    grid-template-columns: 150px minmax(0, 1fr);
+    align-items: start;
+    gap: 20px;
+    min-height: 0;
+    padding: 24px 20px;
+  }
+
+  .country-region-title {
+    padding-top: 6px;
+  }
+
+  .country-region-title strong {
+    font-size: 20px;
+  }
+}
+
+/* Shared article reading layout */
+.foreign-patent-panel > h2 {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  max-width: calc(100% - 2rem);
+  margin: 0 auto 30px;
+}
+.foreign-patent-panel > h2::before {
+  display: block;
+  width: 2rem;
+  height: 5px;
+  background: var(--blue-2);
+  content: '';
+}
+
+.article-content {
+  max-width: calc(100% - 2rem);
+  margin: 0 auto;
+}
+
+.article-content .tab-pane {
+  color: var(--ink-2);
+}
+
+.article-lead {
+  margin: 0 0 1rem 1.25rem;
+  padding: 16px 18px;
+  border-left: 4px solid var(--blue);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  background: var(--blue-light);
+  color: var(--navy);
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 1.9;
+}
+.article-lead p {
+  padding-left: 0;
+}
+
+.article-image {
+  margin-bottom: 1rem;
+}
+
+.article-image a {
+  display: block;
+}
+
+.article-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.article-image figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.article-image figcaption a {
+  display: inline;
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.article-content hr {
+  height: 1px;
+  margin: 30px 0 26px;
+  border: 0;
+  background: var(--line);
+}
+
+.article-content .article-section-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 34px 0 14px;
+  color: var(--navy);
+  font-size: 21px;
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+.article-content .article-section-title::before {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--blue-2);
+  box-shadow: 0 0 0 6px var(--blue-light);
+  content: '';
+  flex: 0 0 auto;
+}
+
+.article-content .tab-pane p {
+  max-width: none;
+  margin: 0 0 18px;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.article-content .article-stage-title {
+  display: block;
+  margin: 30px 0 10px;
+  padding: 10px 14px;
+  border-left: 3px solid var(--blue-2);
+  background: linear-gradient(90deg, var(--blue-light), transparent);
+  color: var(--navy);
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.article-content .article-stage-title::before {
+  content: none;
+}
+
+/* legacy selector kept out of article markup */
+.article-content .tab-pane > b {
+  display: block;
+  margin: 30px 0 10px;
+  padding: 10px 14px;
+  border-left: 3px solid var(--blue-2);
+  background: linear-gradient(90deg, var(--blue-light), transparent);
+  color: var(--navy);
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.article-card-list {
+  display: grid;
+  gap: 14px;
+  margin: 14px 0 24px;
+  padding: 0;
+  list-style: none;
+}
+
+.article-card-list > li {
+  margin: 0;
+  padding: 18px 20px 4px;
+  /* border: 1px solid var(--line); */
+  border-radius: var(--radius-sm);
+  background: var(--panel);
+  box-shadow: var(--shadow-sm);
+}
+
+.article-card-list > li > b {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--blue);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.article-card-list > li > p {
+  margin-bottom: 14px;
+  padding-left: 0;
+}
+
+.article-card {
+  margin: 20px 0 28px;
+  padding: 22px 24px 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--panel);
+  box-shadow: var(--shadow-sm);
+}
+
+.article-card > h3,
+.article-card > h4 {
+  margin: 0 0 18px;
+  color: var(--navy);
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.article-card > b {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--blue);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.article-card p {
+  padding: 0;
+}
+
+.article-content .content-list {
+  display: grid;
+  margin: 14px 0 24px;
+  padding-left: 3rem;
+  color: var(--ink-2);
+  font-size: 15px;
+}
+
+.article-content .content-list li::marker {
+  color: var(--blue);
+  font-weight: 800;
+}
+
+.article-numbered-list {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 0 0 0 1.5rem;
+  list-style: none;
+  counter-reset: article-step;
+}
+
+.article-numbered-list > li {
+  position: relative;
+  padding: 2px 0 2px 42px;
+  color: var(--ink-2);
+  font-size: 15px;
+  line-height: 1.9;
+  counter-increment: article-step;
+}
+
+.article-numbered-list > li::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--blue-light);
+  color: var(--blue);
+  content: counter(article-step);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.article-note {
+  margin-top: 22px;
+  padding: 16px 18px;
+  border: 1px solid #f2b8b5;
+  border-left: 4px solid #d64545;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  background: linear-gradient(90deg, #fff1f0, #fffafa);
+}
+
+.article-note strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #b42318;
+  font-size: 15px;
+}
+
+.article-note p {
+  margin: 0 !important;
+  color: #63312e;
+  font-size: 14px !important;
+  line-height: 1.85 !important;
+}
+
+/* EPC 與歐盟外觀設計沿用 PCT 的文章閱讀節奏 */
+.article-panel > p,
+.article-panel > ul,
+.article-panel > .data-table-wrap {
+  max-width: calc(100% - 2rem);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-panel > p {
+  margin-bottom: 18px;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.article-panel > h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: calc(100% - 2rem);
+  margin: 34px auto 14px;
+  color: var(--navy);
+  font-size: 21px;
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+.article-panel > h3::before {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--blue-2);
+  box-shadow: 0 0 0 6px var(--blue-light);
+  content: '';
+  flex: 0 0 auto;
+}
+
+.article-panel > .content-list {
+  margin-top: 14px;
+  margin-bottom: 24px;
+  padding-left: 22px;
+  line-height: 2;
+}
+
+.article-indent {
+  text-indent: 2rem;
+}
+
+@media (max-width: 640px) {
+
+  .article-content {
+    width: 100%;
+  }
+
+  .article-lead {
+    padding: 16px 18px;
+    font-size: 14px;
+  }
+
+  .article-content .tab-pane p {
+    font-size: 15px;
+  line-height: 1.9;
+}
+
+.article-content p:has(+ .content-list) {
+  margin-bottom: 0;
+}
+
+  .article-section-title {
+    font-size: 19px;
+  }
+
+  .article-panel > p {
+    font-size: 15px;
+    line-height: 1.9;
+  }
+
+  .article-panel > h3 {
+    font-size: 19px;
+  }
+
+  .article-card-list > li {
+    padding: 15px 16px 2px;
+  }
+
+  .article-card {
+    padding: 18px 16px 20px;
+  }
+
+  .article-numbered-list > li {
+    padding-left: 38px;
+    font-size: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .foreign-patent-panel.is-active {
+    animation: none;
+  }
+}
+
+/* Keep section labels close to the lists they introduce. */
+.article-content p + .content-list {
+  margin-top: 0;
+}
+
+.article-content p:has(+ .content-list) {
+  margin-bottom: 0;
+}

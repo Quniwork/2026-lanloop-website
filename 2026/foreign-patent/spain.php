@@ -1,0 +1,98 @@
+<?php
+$baseHref = '../';
+$pageTitle = '西班牙專利 | 國外專利 | 聯律國際專利商標事務所';
+$pageDescription = '西班牙專利種類、申請要點及專利爭議侵權資訊。';
+$pageStyles = array('assets/css/page.css', 'assets/css/foreign-patent.css', 'assets/css/country-article.css');
+$activePage = 'items';
+$activeItem = 'patent';
+include dirname(__FILE__) . '/../include/header.php';
+?>
+
+<main class="country-patent-page">
+  <section class="page-banner" aria-hidden="true"><div class="page-banner__image"></div></section>
+  <div class="container">
+    <div class="page-content">
+      <header class="page-header" aria-labelledby="spain-patent-title">
+        <h1 id="spain-patent-title">國外專利 <small>Foreign Patent</small></h1>
+        <nav class="page-breadcrumb" aria-label="麵包屑">
+          <a href="index">首頁</a><span aria-hidden="true">/</span>
+          <a href="foreign-patent">國外專利</a><span aria-hidden="true">/</span>
+          <span aria-current="page">國外專利制度</span>
+        </nav>
+      </header>
+
+      <article class="country-article spain-article article-content article-panel reveal">
+        <div class="country-article-heading">
+          <div><p class="country-article-kicker">Spain Patent</p><h2>西班牙專利</h2></div>
+          <a class="country-article-back" href="foreign-patent">回國外專利制度列表</a>
+        </div>
+
+        <div class="article-sheet">
+          <header class="article-sheet-header">
+            <p>OEPM 網址：<a href="https://consultas2.oepm.es/LocalizadorWeb/" target="_blank" rel="noopener noreferrer">https://consultas2.oepm.es/LocalizadorWeb/</a></p>
+          </header>
+
+          <section class="article-row">
+            <h3 class="article-section-title">專利種類</h3>
+            <div class="article-body">
+              <div class="data-table-wrap">
+                <table class="data-table china-patent-table brazil-patent-table">
+                  <thead><tr><th scope="col">專利/保護種類</th><th scope="col">保護年限（自申請日起算）</th><th scope="col">審查制度</th><th scope="col">核心保護標的</th></tr></thead>
+                  <tbody>
+                    <tr><th scope="row">發明專利</th><td>20 年</td><td>全面實體審查制（含新穎性與進步性）</td><td>具備新穎性、進步性與產業利用性的技術或方法發明。</td></tr>
+                    <tr><th scope="row">新型專利</th><td>10 年</td><td>形式審查制（新增強制檢索報告）</td><td>賦予物品在結構、構造或組成上具備實用效益的技術發明（化學品、生物物質及方法除外）。</td></tr>
+                    <tr><th scope="row">設計專利</th><td>5 年（可展延4次，最長 25 年）</td><td>形式審查制</td><td>產品全部或部分的創新外觀、線條、色彩、形狀或材料。</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+
+          <section class="article-row">
+            <h3 class="article-section-title">申請要點</h3>
+            <div class="article-body">
+              <ul class="content-list">
+                <li><strong>廢除無審查獲證制度：</strong>自新專利法實施後，西班牙徹底廢除了過去「不經實體審查即可公告獲證」的雙軌制。現在所有的國家發明專利申請，必須強制接受 OEPM 的實體審查（審查新穎性與進步性），大幅降低了過去「垃圾專利」氾濫的現象。</li>
+              </ul>
+              <h4>新型專利保護範圍擴大（但排除特定標的）：</h4>
+              <ul class="content-list content-sublist">
+                <li>新法放寬了新型專利的限制，不再僅限於「工具或器械」，任何形狀或組成的「物品、產品」皆可申請。</li>
+                <li><strong>特別注意：</strong>方法（Process/Method）、化學物質、生物物質以及醫藥品，在西班牙絕對無法申請新型專利。</li>
+              </ul>
+              <h4>新型專利強制檢索與異議期：</h4>
+              <ul class="content-list content-sublist">
+                <li>西班牙新型專利雖不進行進步性審查，但 OEPM 強制要求製作官方新穎性檢索報告（IET），且申請案會向大眾公開。</li>
+                <li>公開後設有 2 個月的異議期（Opposition），任何第三方皆可在此階段提出反對，其審查嚴格度在歐洲各國新型專利中屬於偏高者。</li>
+              </ul>
+              <ul class="content-list">
+                <li><strong>新穎性優惠期（Grace Period）：</strong>西班牙發明專利提供 6 個月 的嚴格新穎性優惠期，但僅限於「因第三方惡意濫用（如洩密）」或「在官方認可的國際展覽會上展出」所導致的公開，若是發明人自行發表論文或商業化，則不適用。</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="article-row">
+            <h3 class="article-section-title">專利爭議侵權</h3>
+            <div class="article-body">
+              <ul class="content-list">
+                <li><strong>專責商業法院管轄：</strong>專利侵權與無效訴訟由西班牙各自治區設有智慧財產權專責庭的商業法院（Juzgados de lo Mercantil）審理，其中以巴塞隆納和馬德里的商業法院在處理複雜國際專利訴訟上最為經驗豐富。</li>
+                <li><strong>新型專利訴訟的「強制檢索」門檻：</strong>如果您欲基於西班牙「新型專利」對他人提起侵權訴訟，必須在起訴前向 OEPM 申請並取得新穎性檢索報告（IET），並將該報告隨起訴狀一同提交給法院。若未附上報告，法院將直接駁回起訴。</li>
+                <li><strong>「事實保留」先行取證機制（Diligencias Preliminares / Comprobación de Hechos）：</strong>這與法、義的突擊扣押類似。原告在起訴前，若有足夠理由懷疑他人侵權但缺乏具體證據，可向法院申請由法官帶隊或指派專家，突擊前往被告的工廠、倉庫或營業場所，現場檢驗其設備、製程或產品。被告若拒絕配合，法院在後續訴訟中可直接推定原告的侵權指控成立。</li>
+              </ul>
+              <h4>判定原則（特別重視等同原則的限制）：</h4>
+              <ul class="content-list content-sublist">
+                <li>西班牙法院在判定侵權時採用文義侵權（Literal Infringement）與等同原則（Doctrine of Equivalents）。</li>
+                <li>在應用等同原則時，西班牙法院非常強調「申請歷史禁反言」（File Wrapper Estoppel），亦即發明人在申請階段為了迎合審查委員而限縮的權利範圍，在侵權訴訟中絕不能再透過等同原則主張要回。</li>
+              </ul>
+              <ul class="content-list">
+                <li><strong>跨境防禦：不參予統一專利法院（UPC）：</strong>西班牙出於語言政策與主權考量，至今仍拒絕加入歐洲「單一專利（Unitary Patent, UP）」及「統一專利法院（UPC）」制度。因此，任何歐洲專利（EP）若要在西班牙生效，必須單獨辦理西班牙國家階段翻譯與登記；若要在西班牙打專利官司，也必須透過西班牙本土法院，不受 UPC 判決的直接管轄。</li>
+                <li><strong>消滅時效：</strong>專利侵權損害賠償的請求權時效，自權利人「可以依據法律主張該權利」之日起算 5 年。</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </article>
+    </div>
+  </div>
+</main>
+
+<?php include dirname(__FILE__) . '/../include/footer.php'; ?>

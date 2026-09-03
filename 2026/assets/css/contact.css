@@ -1,0 +1,615 @@
+/* ============================================================
+   CONTACT PAGE STYLES (2026 Redesign)
+   ============================================================ */
+
+:root {
+  --contact-primary: var(--blue, #0b5fa8);
+  --contact-primary-hover: #a8c8e8;
+  --contact-primary-active: #073d6d;
+  --contact-primary-light: var(--blue-light, #e8f3ff);
+  --contact-navy: var(--navy, #09294d);
+  --contact-navy-soft: #123765;
+  
+  --contact-card-bg: #ffffff;
+  --contact-panel-bg: #f8fafc;
+  --contact-card-border: #e2e8f0;
+  --contact-input-bg: #ffffff;
+  --contact-input-border: #e4ecf5;
+  --contact-input-hover: #94a3b8;
+  --contact-focus-ring: rgba(11, 95, 168, 0.18);
+  
+  --contact-text-heading: #0f172a;
+  --contact-text-body: #334155;
+  --contact-text-muted: #64748b;
+  --contact-text-light: #94a3b8;
+
+  --contact-success: #059669;
+  --contact-success-bg: #f0fdf4;
+  --contact-success-border: #bbf7d0;
+
+  --contact-error: #e11d48;
+  --contact-error-bg: #fff1f2;
+  --contact-error-border: #fecdd3;
+
+  --contact-radius-card: 24px;
+  --contact-radius-inner: 16px;
+  --contact-radius-input: 36px;
+  --contact-radius-btn: 9999px;
+  --contact-radius-pill: 9999px;
+
+  --contact-shadow-card: 0 16px 40px -12px rgba(15, 23, 42, 0.08), 0 2px 8px rgba(15, 23, 42, 0.04);
+  --contact-shadow-input: 0 1px 2px rgba(15, 23, 42, 0.04);
+  --contact-shadow-btn: 0 8px 20px -4px rgba(11, 95, 168, 0.35);
+}
+
+/* 地圖展示橫幅 */
+.contact-map {
+  height: clamp(240px, 32dvh, 440px);
+  min-height: 240px;
+  background-color: var(--contact-navy);
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-map iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* contact-content 主容器 */
+.contact-content {
+  width: 100%;
+  padding: 2rem 2rem 0;
+}
+
+@media (max-width: 44rem) {
+  .contact-content {
+    padding: 1rem 10px 0;
+  }
+}
+
+.contact-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.3rem 0.85rem;
+  background: var(--contact-primary-light);
+  color: var(--contact-primary);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border-radius: var(--contact-radius-pill);
+  margin-bottom: 0.75rem;
+  width: fit-content;
+}
+
+.contact-info-title {
+  font-size: 1.625rem;
+  font-weight: 800;
+  color: var(--contact-text-heading);
+  line-height: 1.3;
+  margin-bottom: 0.625rem;
+  letter-spacing: -0.01em;
+}
+
+.contact-info-desc {
+  font-size: 0.9375rem;
+  color: var(--contact-text-muted);
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* 快捷撥打 / LINE 按鈕卡片 */
+.contact-quick-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contact-quick-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.9rem 1.15rem;
+  border-radius: var(--contact-radius-inner);
+  text-decoration: none;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.2s ease, border-color 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.contact-quick-btn .quick-btn-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contact-quick-btn .quick-btn-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+
+.contact-quick-btn .quick-btn-text small {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.2rem;
+}
+
+.contact-quick-btn .quick-btn-text strong {
+  font-size: 1.125rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+/* 電話快捷鍵風格 */
+.contact-quick-btn--tel {
+  background: #ffffff;
+  border-color: var(--contact-card-border);
+  color: var(--contact-navy);
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+}
+
+.contact-quick-btn--tel .quick-btn-icon {
+  background: var(--contact-primary-light);
+  color: var(--contact-primary);
+}
+
+.contact-quick-btn--tel .quick-btn-text small {
+  color: var(--contact-text-muted);
+}
+
+.contact-quick-btn--tel:hover {
+  border-color: var(--contact-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(11, 95, 168, 0.12);
+}
+
+/* LINE 快捷鍵風格 */
+.contact-quick-btn--line {
+  background: #06c755;
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(6, 199, 85, 0.25);
+}
+
+.contact-quick-btn--line .quick-btn-icon {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.contact-quick-btn--line .quick-btn-text small {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-quick-btn--line:hover {
+  background: #05b44d;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(6, 199, 85, 0.35);
+}
+
+/* 聯絡細節列表 */
+.contact-details-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--contact-card-border);
+}
+
+.contact-detail-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.875rem;
+}
+
+.contact-detail-item .detail-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid var(--contact-card-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--contact-primary);
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.contact-detail-item .detail-label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--contact-text-muted);
+  margin-bottom: 0.15rem;
+}
+
+.contact-detail-item .detail-val {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--contact-text-heading);
+  line-height: 1.45;
+  word-break: break-word;
+}
+
+.contact-detail-item a.detail-val {
+  color: var(--contact-primary);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.contact-detail-item a.detail-val:hover {
+  text-decoration: underline;
+  color: var(--contact-primary-hover);
+}
+
+/* 安心保障小卡 */
+.contact-trust-card {
+  background: linear-gradient(145deg, #ffffff 0%, #f1f5f9 100%);
+  border: 1px solid var(--contact-card-border);
+  border-radius: var(--contact-radius-inner);
+  padding: 1.15rem;
+  display: flex;
+  gap: 0.875rem;
+  align-items: flex-start;
+}
+
+.contact-trust-card .trust-icon {
+  color: var(--contact-primary);
+  background: var(--contact-primary-light);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contact-trust-card .trust-content strong {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--contact-navy);
+  margin-bottom: 0.25rem;
+}
+
+.contact-trust-card .trust-content p {
+  font-size: 0.8125rem;
+  color: var(--contact-text-muted);
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* 狀態通知提示 (Alerts) */
+.contact-alert,
+.contact-message {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.875rem;
+  padding: 1rem 1.25rem;
+  border-radius: var(--contact-radius-inner);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  line-height: 1.55;
+  margin-bottom: 1.75rem;
+  border: 1px solid;
+}
+
+.contact-alert__icon {
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.contact-alert--success,
+.contact-message--success {
+  background: var(--contact-success-bg);
+  border-color: var(--contact-success-border);
+  color: var(--contact-success);
+}
+
+.contact-alert--error,
+.contact-message--error {
+  background: var(--contact-error-bg);
+  border-color: var(--contact-error-border);
+  color: var(--contact-error);
+}
+
+/* 表單排版格狀系統 */
+.contact-form {
+  position: relative;
+}
+
+.contact-form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 44rem) {
+  .contact-form-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.contact-field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-field-group--full {
+  grid-column: 1 / -1;
+  margin-top: 1.25rem;
+}
+
+/* 標籤與必填膠囊 */
+.contact-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--contact-text-body);
+}
+
+.contact-badge-req {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  padding: 0.15rem 0.45rem;
+  background: #fef2f2;
+  color: #ef4444;
+  border: 1px solid #fee2e2;
+  border-radius: var(--contact-radius-pill);
+  letter-spacing: 0.02em;
+}
+
+/* 輸入框包覆層與前綴圖示 */
+.contact-input-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.contact-input-icon {
+  position: absolute;
+  left: 1rem;
+  color: var(--contact-text-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  transition: color 0.15s ease;
+}
+
+.contact-input {
+  width: 100%;
+  height: 48px;
+  padding: 0.65rem 1rem 0.65rem 2.85rem;
+  background: var(--contact-input-bg);
+  border: 1px solid var(--contact-input-border);
+  border-radius: var(--contact-radius-input);
+  font-family: inherit;
+  font-size: 0.9375rem;
+  color: var(--contact-text-heading);
+  box-shadow: var(--contact-shadow-input);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.contact-input::placeholder {
+  color: var(--contact-text-light);
+  font-weight: 400;
+}
+
+.contact-input:hover {
+  border-color: var(--contact-primary-hover);
+}
+
+.contact-input:focus {
+  outline: none;
+  border-color: var(--contact-primary-hover);
+  /* box-shadow: 0 0 0 4px var(--contact-focus-ring), var(--contact-shadow-input); */
+}
+
+.contact-input-wrap:focus-within .contact-input-icon {
+  color: var(--contact-primary);
+}
+
+/* 內容文字區塊 */
+.contact-textarea-wrap {
+  position: relative;
+}
+
+.contact-textarea {
+  width: 100%;
+  min-height: 140px;
+  padding: 0.85rem 1rem;
+  background: var(--contact-input-bg);
+  border: 1px solid var(--contact-input-border);
+  border-radius: 16px;
+  font-family: inherit;
+  font-size: 0.9375rem;
+  color: var(--contact-text-heading);
+  line-height: 1.6;
+  resize: vertical;
+  /* box-shadow: var(--contact-shadow-input); */
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.contact-textarea::placeholder {
+  color: var(--contact-text-light);
+  font-weight: 400;
+}
+
+.contact-textarea:hover {
+  border-color: var(--contact-primary-hover);
+}
+
+.contact-textarea:focus {
+  outline: none;
+  border-color: var(--contact-primary-hover);
+  /* box-shadow: 0 0 0 4px var(--contact-focus-ring), var(--contact-shadow-input); */
+}
+
+/* 蜜罐欄位隱藏 */
+.contact-honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* 表單底部操作與溫馨提醒 */
+.contact-form-footer {
+  margin-top: 1.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+@media (min-width: 44rem) {
+  .contact-form-footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.contact-form-note {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--contact-text-muted);
+  font-size: 0.8125rem;
+  line-height: 1.4;
+}
+
+.contact-form-note svg {
+  color: var(--contact-text-light);
+  flex-shrink: 0;
+}
+
+.contact-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+@media (max-width: 40rem) {
+  .contact-actions {
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  
+  .contact-actions button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* 按鈕風格 (Buttons) */
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: inherit;
+  height: 54px;
+  padding: 0 28px;
+  border-radius: 999px;
+  font-size: 14px;
+  /* font-weight: 800; */
+  cursor: pointer;
+  transition: transform 0.25s var(--ease-spring), box-shadow 0.25s var(--ease-out);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.contact-btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, .2), transparent 50%);
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.contact-btn:hover::after {
+  opacity: 1;
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px);
+}
+
+.contact-btn:focus-visible {
+  outline: 2px solid var(--contact-primary);
+  outline-offset: 3px;
+}
+
+.contact-btn:active {
+  transform: translateY(1px) scale(0.99);
+}
+
+.contact-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* 次要按鈕：清除 */
+.contact-btn--reset {
+  background: #ffffff;
+  border-color: var(--contact-card-border);
+  color: var(--contact-text-body);
+}
+
+.contact-btn--reset:hover {
+  background: #f8fafc;
+  border-color: var(--contact-input-hover);
+  color: var(--contact-text-heading);
+}
+
+/* 主要按鈕：送出 */
+.contact-btn--submit {
+  background: var(--contact-primary);
+  color: #ffffff;
+  box-shadow: 0 8px 24px rgba(10, 58, 150, .28);
+}
+
+.contact-btn--submit svg {
+  transition: transform 0.2s ease;
+}
+
+.contact-btn--submit:hover {
+  box-shadow: 0 14px 36px rgba(10, 58, 150, .38);
+}
+
+.contact-btn--submit:hover svg {
+  transform: translateX(3px);
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .contact-quick-btn,
+  .contact-input,
+  .contact-textarea,
+  .contact-btn,
+  .contact-btn--submit svg {
+    transition: none !important;
+    transform: none !important;
+  }
+}

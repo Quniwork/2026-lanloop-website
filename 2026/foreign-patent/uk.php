@@ -1,0 +1,102 @@
+<?php
+$baseHref = '../';
+$pageTitle = '英國專利 | 國外專利 | 聯律國際專利商標事務所';
+$pageDescription = '英國專利種類、申請要點及專利爭議侵權資訊。';
+$pageStyles = array('assets/css/page.css', 'assets/css/foreign-patent.css', 'assets/css/country-article.css');
+$activePage = 'items';
+$activeItem = 'patent';
+include dirname(__FILE__) . '/../include/header.php';
+?>
+
+<main class="country-patent-page">
+  <section class="page-banner" aria-hidden="true"><div class="page-banner__image"></div></section>
+  <div class="container">
+    <div class="page-content">
+      <header class="page-header" aria-labelledby="uk-patent-title">
+        <h1 id="uk-patent-title">國外專利 <small>Foreign Patent</small></h1>
+        <nav class="page-breadcrumb" aria-label="麵包屑">
+          <a href="index">首頁</a><span aria-hidden="true">/</span>
+          <a href="foreign-patent">國外專利</a><span aria-hidden="true">/</span>
+          <span aria-current="page">國外專利制度</span>
+        </nav>
+      </header>
+
+      <article class="country-article uk-article article-content article-panel reveal">
+        <div class="country-article-heading">
+          <div><p class="country-article-kicker">United Kingdom Patent</p><h2>英國專利</h2></div>
+          <a class="country-article-back" href="foreign-patent">回國外專利制度列表</a>
+        </div>
+
+        <div class="article-sheet">
+          <header class="article-sheet-header">
+            <p>EPO網址：<a href="https://lsl.sinica.edu.tw/EResources/db/patents.php" target="_blank" rel="noopener noreferrer">https://lsl.sinica.edu.tw/EResources/db/patents.php</a></p>
+          </header>
+
+          <section class="article-row">
+            <h3 class="article-section-title">專利種類</h3>
+            <div class="article-body">
+              <div class="data-table-wrap">
+                <table class="data-table china-patent-table">
+                  <thead><tr><th scope="col">比較項目</th><th scope="col">發明專利 (Patents)</th><th scope="col">設計專利 (Registered Designs)</th></tr></thead>
+                  <tbody>
+                    <tr><th scope="row">保護對象</th><td>技術方案、方法、製程、產品結構</td><td>產品形狀、圖案、線條等外觀視覺</td></tr>
+                    <tr><th scope="row">審查方式</th><td>實體審查（早期公開）</td><td>形式審查（註冊登記制）</td></tr>
+                    <tr><th scope="row">保護期限</th><td>最長 20 年</td><td>最長 25 年</td></tr>
+                    <tr><th scope="row">審查時間</th><td>約 2 至 3 年</td><td>約 6 個月以內</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+
+          <section class="article-row">
+            <h3 class="article-section-title">申請要點</h3>
+            <div class="article-body">
+              <h4>發明必須同時符合以下三項法定要件，才能被授予專利權：</h4>
+              <ul class="content-list">
+                <li><strong>新穎性 (Novelty)：</strong>該發明在申請日（或優先權日）之前，不得公開發表或在世界上任何地方被大眾所知。即使是發明人自己的演講、產品展示或網站公開，都會破壞新穎性。</li>
+                <li><strong>創造性 (Inventive Step)：</strong>對於該技術領域中具有通常知識的專業人士而言，該發明不能是顯而易見的改進。它必須包含某種技術突破或非預期的技術效果。</li>
+                <li><strong>產業利用性 (Industrial Application)：</strong>該發明必須能夠在某種產業中被製造或使用（包含農業）。</li>
+                <li><strong>法定排除對象：</strong>純科學理論、數學方法、商業方法、純電腦軟體（未具備技術貢獻者）以及單純的外觀美感創作，皆無法申請發明專利。</li>
+              </ul>
+              <h4>設計專利</h4>
+              <ul class="content-list">
+                <li><strong>核心要件：</strong>必須具備新穎性 (Newness) 與獨特性 (Individual Character)。</li>
+                <li><strong>審查制度：</strong>採註冊制（不進行實體審查），只要文件格式與圖資符合規範即可快速獲准註冊。</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="article-row">
+            <h3 class="article-section-title">專利爭議侵權</h3>
+            <div class="article-body">
+              <p>英國知識產權局 (UKIPO) 並沒有傳統意義上的「授權後異議」程序。欲挑戰英國專利，可依專利狀態選擇「授權前第三方意見」或「授權後撤銷/意見請求」。這些途徑比直接訴諸法院更經濟實惠。</p>
+              <h4>授權前：第三方意見</h4>
+              <ul class="content-list">
+                <li><strong>申請時機：</strong>在專利申請案公開後至核准前提出。</li>
+                <li><strong>內容：</strong>以書面形式陳述專利不具備可專利性（如缺乏新穎性或進步性）的理由，並可附上引證文件。</li>
+              </ul>
+              <h4>授權後：專利撤銷</h4>
+              <ul class="content-list">
+                <li><strong>法定依據：</strong>依據《1977 年英國專利法》第 72 條，任何人皆可向 UKIPO 提出專利撤銷申請。</li>
+                <li><strong>法定理由：</strong>包含不具可專利性（無新穎性、進步性等）、專利範圍超出原始申請內容、揭露不充分 (insufficiency) 或不具備權利等。</li>
+              </ul>
+              <h4>根據英國專利法，侵權行為主要分為兩大類：</h4>
+              <ul class="content-list">
+                <li><strong>直接侵權：</strong>未經授權在英國境內製造、處分（如販售）、使用、進口或保管該專利產品。若是方法專利，則指在英國境內使用該方法，或使用、販售由該方法直接製得的產品。</li>
+                <li><strong>間接侵權：</strong>提供任何與該發明核心要素相關的「手段」（如零件、特定原料），且明知（或在客觀情況下顯而易見）該手段是用於在英國境內實施該發明。</li>
+              </ul>
+              <h4>侵權比對原則（等同原則）</h4>
+              <ol class="content-list">
+                <li><strong>文義侵權：</strong>檢視被告產品是否落入專利權利要求（Claims）的字面文義範圍。</li>
+                <li><strong>等同侵權：</strong>若無字面文義侵權，則評估被告產品是否以本質上相同的方式，達到與專利相同的效果。若該變更是顯而易見的，且公眾不會認為該專利嚴格限制在字面範圍內，仍會被判定為侵權。</li>
+              </ol>
+            </div>
+          </section>
+        </div>
+      </article>
+    </div>
+  </div>
+</main>
+
+<?php include dirname(__FILE__) . '/../include/footer.php'; ?>

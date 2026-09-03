@@ -1,0 +1,217 @@
+    /* ============================================================
+    FOOTER
+   ============================================================ */
+
+    .footer-wrap {
+      background-image: linear-gradient(45deg, #f3f9ff, #f8fbff)
+    }
+
+    .footer {
+      min-height: 0;
+      background: #212428;
+      color: white;
+      padding: 68px 100px 40px;
+      border-radius: 26px 26px 0 0;
+      position: relative;
+      overflow: visible;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: minmax(180px, .8fr) minmax(210px, 1fr) minmax(280px, 1.2fr);
+      gap: 56px;
+      align-items: start;
+      position: relative;
+      z-index: 2;
+    }
+
+    .footer-contact {
+      justify-self: stretch;
+    }
+
+    .footer-locations {
+      justify-self: stretch;
+    }
+
+    .footer-logo {
+      width: 47px;
+      height: 45px;
+      margin-bottom: 18px;
+    }
+
+    .footer-tagline {
+      font-size: 13.5px;
+      color: #7a94ad;
+      line-height: 1.95;
+      margin-bottom: 22px;
+    }
+
+    .footer-socials {
+      display: flex;
+      gap: 10px;
+    }
+
+    .footer-social {
+      width: 38px;
+      height: 38px;
+      border-radius: 12px;
+      transition: transform 0.2s var(--ease-spring);
+      overflow: hidden;
+    }
+
+    .footer-social img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .footer-social:hover {
+      transform: translateY(-2px);
+    }
+
+    .footer-contact h3,
+    .footer-locations h3 {
+      margin: 0 0 20px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: -0.01em;
+    }
+
+    .contact-item {
+      margin-top: 24px;
+    }
+
+    .contact-item-label {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: #7a94ad;
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 3px;
+    }
+
+    .contact-icon {
+      width: 14px;
+      height: 14px;
+      stroke: #7a94ad;
+      fill: none;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      flex-shrink: 0;
+    }
+
+    .contact-item-val {
+      color: #ffffff;
+      font-size: 15px;
+      letter-spacing: .01em;
+      line-height: 1.3;
+    }
+
+    .contact-item-val.phone-val a {
+      color: #ffffff;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .contact-item-val.phone-val a:hover {
+      color: #64b6ef;
+      text-decoration: underline;
+    }
+
+    .contact-item-val.email-val a {
+      color: #ffffff;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      font-size: 14px;
+      transition: color 0.2s;
+    }
+
+    .contact-item-val.email-val a:hover {
+      color: #64b6ef;
+    }
+
+    .location-address {
+      color: #ffffff;
+      font-size: 14px;
+      margin-bottom: 4px;
+      line-height: 1.45;
+      overflow-wrap: anywhere;
+    }
+
+    /* Map Box Preview */
+    .mapbox-preview {
+      width: 100%;
+      max-width: 360px;
+      height: 220px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 12px;
+    }
+
+    .mapbox-preview iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      display: block;
+    }
+
+    .map-external-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 10px;
+      font-size: 13px;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      transition: color 0.2s;
+    }
+
+    .map-external-link:hover {
+      color: #64b6ef;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, .10);
+      margin-top: 40px;
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #7a9bb8;
+      font-size: 12px;
+      position: relative;
+      z-index: 2;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .footer-bottom a {
+      color: #7a9bb8;
+      transition: color 0.2s;
+    }
+
+    .footer-bottom a:hover {
+      color: white;
+    }
+
+    @media (max-width: 1100px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 36px;
+      }
+
+      .footer { padding: 52px 40px 30px; }
+    }
+
+    @media (max-width: 640px) {
+      .footer { padding: 40px 24px 24px; }
+      .footer-locations { width: 100%; justify-self: stretch; }
+      .mapbox-preview { width: 100%; max-width: none; height: 240px; }
+      .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
