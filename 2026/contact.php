@@ -100,7 +100,7 @@ include dirname(__FILE__) . '/include/header.php';
       <header class="page-header" aria-labelledby="contact-title">
         <h1 id="contact-title">聯絡我們 <small>Contact Us</small></h1>
         <nav class="page-breadcrumb" aria-label="麵包屑">
-          <a href="index">首頁</a>
+          <a href="index.php">首頁</a>
           <span aria-hidden="true">/</span>
           <span aria-current="page">聯絡我們</span>
         </nav>
@@ -126,7 +126,7 @@ include dirname(__FILE__) . '/include/header.php';
             </div>
 <?php } ?>
 
-            <form class="contact-form" method="post" action="contact" novalidate>
+            <form class="contact-form" method="post" action="contact.php" novalidate>
               <div class="contact-form-grid">
                 <div class="contact-field-group">
                   <label for="contact-name" class="contact-label">

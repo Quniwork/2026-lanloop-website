@@ -15,8 +15,8 @@ include dirname(__FILE__) . '/../include/header.php';
       <header class="page-header" aria-labelledby="hong-kong-trademark-title">
         <h1 id="hong-kong-trademark-title">國外商標 <small>Foreign Trademark</small></h1>
         <nav class="page-breadcrumb" aria-label="麵包屑">
-          <a href="index">首頁</a><span aria-hidden="true">/</span>
-          <a href="foreign-trademark">國外商標</a><span aria-hidden="true">/</span>
+          <a href="index.php">首頁</a><span aria-hidden="true">/</span>
+          <a href="foreign-trademark.php">國外商標</a><span aria-hidden="true">/</span>
           <span aria-current="page">國外商標制度</span>
         </nav>
       </header>
@@ -24,7 +24,7 @@ include dirname(__FILE__) . '/../include/header.php';
       <article class="country-article hong-kong-article article-content article-panel reveal">
         <div class="country-article-heading">
           <div><p class="country-article-kicker">Hong Kong Trademark</p><h2>香港商標</h2></div>
-          <a class="country-article-back" href="foreign-trademark">回國外商標制度列表</a>
+          <a class="country-article-back" href="foreign-trademark.php">回國外商標制度列表</a>
         </div>
 
         <div class="article-sheet">

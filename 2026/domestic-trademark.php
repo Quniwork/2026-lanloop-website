@@ -18,7 +18,7 @@ include dirname(__FILE__) . '/include/header.php';
       <header class="page-header" aria-labelledby="domestic-trademark-title">
         <h1 id="domestic-trademark-title">國內商標 <small>Domestic Trademark</small></h1>
         <nav class="page-breadcrumb" aria-label="麵包屑">
-          <a href="index">首頁</a>
+          <a href="index.php">首頁</a>
           <span aria-hidden="true">/</span>
           <span aria-current="page">國內商標</span>
         </nav>

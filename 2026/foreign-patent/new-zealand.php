@@ -15,8 +15,8 @@ include dirname(__FILE__) . '/../include/header.php';
       <header class="page-header" aria-labelledby="new-zealand-patent-title">
         <h1 id="new-zealand-patent-title">國外專利 <small>Foreign Patent</small></h1>
         <nav class="page-breadcrumb" aria-label="麵包屑">
-          <a href="index">首頁</a><span aria-hidden="true">/</span>
-          <a href="foreign-patent">國外專利</a><span aria-hidden="true">/</span>
+          <a href="index.php">首頁</a><span aria-hidden="true">/</span>
+          <a href="foreign-patent.php">國外專利</a><span aria-hidden="true">/</span>
           <span aria-current="page">國外專利制度</span>
         </nav>
       </header>
@@ -24,7 +24,7 @@ include dirname(__FILE__) . '/../include/header.php';
       <article class="country-article new-zealand-article article-content article-panel reveal">
         <div class="country-article-heading">
           <div><p class="country-article-kicker">New Zealand Patent</p><h2>紐西蘭專利</h2></div>
-          <a class="country-article-back" href="foreign-patent">回國外專利制度列表</a>
+          <a class="country-article-back" href="foreign-patent.php">回國外專利制度列表</a>
         </div>
 
         <div class="article-sheet">

@@ -14,8 +14,8 @@ include dirname(__FILE__) . '/include/header.php';
       <header class="page-header" aria-labelledby="china-patent-title">
         <h1 id="china-patent-title">中國專利 <small>China Patent</small></h1>
         <nav class="page-breadcrumb" aria-label="麵包屑">
-          <a href="index">首頁</a><span aria-hidden="true">/</span>
-          <a href="foreign-patent">國外專利</a><span aria-hidden="true">/</span>
+          <a href="index.php">首頁</a><span aria-hidden="true">/</span>
+          <a href="foreign-patent.php">國外專利</a><span aria-hidden="true">/</span>
           <span aria-current="page">中國專利</span>
         </nav>
       </header>

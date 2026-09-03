@@ -17,17 +17,17 @@ include dirname(__FILE__) . '/include/header.php';
             <div class="hero-copy">
               <div class="eyebrow reveal">GLOBAL INTELLECTUAL PROPERTY</div>
               <h1 class="reveal reveal-delay-1">
-                全球布局・專業守護<br>
-                <span class="blue">商標 × 專利一站式服務</span>
+                讓每個好想法<br>
+                <span class="blue">走得更遠。</span>
               </h1>
               <p class="reveal reveal-delay-2">
-                深耕智慧財產領域多年，提供專業、迅速、國際化的智慧財產權解決方案，<br>協助您的創新與品牌走向世界。
+                深耕智慧財產領域多年，提供專業、迅速、國際化的智財解決方案，<br>協助您的創新與品牌走向世界。
               </p>
               <div class="hero-actions reveal reveal-delay-3">
-                <a class="btn btn-primary" href="#contact" id="btn-consult">
+                <a class="btn btn-primary" href="contact.php" id="btn-consult">
                   立即諮詢 <span class="btn-arrow">→</span>
                 </a>
-                <a class="btn btn-ghost" href="#quick-links" id="btn-services">
+                <a class="btn btn-ghost" href="services.php" id="btn-services">
                   了解服務項目 <span class="btn-arrow">→</span>
                 </a>
               </div>
@@ -52,59 +52,59 @@ include dirname(__FILE__) . '/include/header.php';
           <!-- Row 1：向左滾動 -->
           <div class="marquee-row">
             <div class="marquee-track" aria-hidden="false">
-              <a class="flag" href="foreign-patent/usa" target="_blank" rel="noopener noreferrer" aria-label="美國專利"><i>🇺🇸</i>美國專利</a>
-              <a class="flag" href="foreign-patent/china" target="_blank" rel="noopener noreferrer" aria-label="中國專利"><i>🇨🇳</i>中國專利</a>
-              <a class="flag" href="foreign-patent/japan" target="_blank" rel="noopener noreferrer" aria-label="日本專利"><i>🇯🇵</i>日本專利</a>
-              <a class="flag" href="foreign-patent/germany" target="_blank" rel="noopener noreferrer" aria-label="德國專利"><i>🇩🇪</i>德國專利</a>
-              <a class="flag" href="foreign-patent/uk" target="_blank" rel="noopener noreferrer" aria-label="英國專利"><i>🇬🇧</i>英國專利</a>
-              <a class="flag" href="foreign-patent/france" target="_blank" rel="noopener noreferrer" aria-label="法國專利"><i>🇫🇷</i>法國專利</a>
-              <a class="flag" href="foreign-patent/korea" target="_blank" rel="noopener noreferrer" aria-label="韓國專利"><i>🇰🇷</i>韓國專利</a>
-              <a class="flag" href="foreign-patent/australia" target="_blank" rel="noopener noreferrer" aria-label="澳洲專利"><i>🇦🇺</i>澳洲專利</a>
-              <a class="flag" href="foreign-patent/india" target="_blank" rel="noopener noreferrer" aria-label="印度專利"><i>🇮🇳</i>印度專利</a>
-              <a class="flag" href="foreign-patent/canada" target="_blank" rel="noopener noreferrer" aria-label="加拿大專利"><i>🇨🇦</i>加拿大專利</a>
-              <a class="flag" href="foreign-patent/spain" target="_blank" rel="noopener noreferrer" aria-label="西班牙專利"><i>🇪🇸</i>西班牙專利</a>
+              <a class="flag" href="foreign-patent/usa.php" target="_blank" rel="noopener noreferrer" aria-label="美國專利"><i>🇺🇸</i>美國專利</a>
+              <a class="flag" href="foreign-patent/china.php" target="_blank" rel="noopener noreferrer" aria-label="中國專利"><i>🇨🇳</i>中國專利</a>
+              <a class="flag" href="foreign-patent/japan.php" target="_blank" rel="noopener noreferrer" aria-label="日本專利"><i>🇯🇵</i>日本專利</a>
+              <a class="flag" href="foreign-patent/germany.php" target="_blank" rel="noopener noreferrer" aria-label="德國專利"><i>🇩🇪</i>德國專利</a>
+              <a class="flag" href="foreign-patent/uk.php" target="_blank" rel="noopener noreferrer" aria-label="英國專利"><i>🇬🇧</i>英國專利</a>
+              <a class="flag" href="foreign-patent/france.php" target="_blank" rel="noopener noreferrer" aria-label="法國專利"><i>🇫🇷</i>法國專利</a>
+              <a class="flag" href="foreign-patent/korea.php" target="_blank" rel="noopener noreferrer" aria-label="韓國專利"><i>🇰🇷</i>韓國專利</a>
+              <a class="flag" href="foreign-patent/australia.php" target="_blank" rel="noopener noreferrer" aria-label="澳洲專利"><i>🇦🇺</i>澳洲專利</a>
+              <a class="flag" href="foreign-patent/india.php" target="_blank" rel="noopener noreferrer" aria-label="印度專利"><i>🇮🇳</i>印度專利</a>
+              <a class="flag" href="foreign-patent/canada.php" target="_blank" rel="noopener noreferrer" aria-label="加拿大專利"><i>🇨🇦</i>加拿大專利</a>
+              <a class="flag" href="foreign-patent/spain.php" target="_blank" rel="noopener noreferrer" aria-label="西班牙專利"><i>🇪🇸</i>西班牙專利</a>
             </div>
             <div class="marquee-track" aria-hidden="true">
-              <a class="flag" href="foreign-patent/usa" target="_blank" rel="noopener noreferrer" aria-label="美國專利" tabindex="-1"><i>🇺🇸</i>美國專利</a>
-              <a class="flag" href="foreign-patent/china" target="_blank" rel="noopener noreferrer" aria-label="中國專利" tabindex="-1"><i>🇨🇳</i>中國專利</a>
-              <a class="flag" href="foreign-patent/japan" target="_blank" rel="noopener noreferrer" aria-label="日本專利" tabindex="-1"><i>🇯🇵</i>日本專利</a>
-              <a class="flag" href="foreign-patent/germany" target="_blank" rel="noopener noreferrer" aria-label="德國專利" tabindex="-1"><i>🇩🇪</i>德國專利</a>
-              <a class="flag" href="foreign-patent/uk" target="_blank" rel="noopener noreferrer" aria-label="英國專利" tabindex="-1"><i>🇬🇧</i>英國專利</a>
-              <a class="flag" href="foreign-patent/france" target="_blank" rel="noopener noreferrer" aria-label="法國專利" tabindex="-1"><i>🇫🇷</i>法國專利</a>
-              <a class="flag" href="foreign-patent/korea" target="_blank" rel="noopener noreferrer" aria-label="韓國專利" tabindex="-1"><i>🇰🇷</i>韓國專利</a>
-              <a class="flag" href="foreign-patent/australia" target="_blank" rel="noopener noreferrer" aria-label="澳洲專利" tabindex="-1"><i>🇦🇺</i>澳洲專利</a>
-              <a class="flag" href="foreign-patent/india" target="_blank" rel="noopener noreferrer" aria-label="印度專利" tabindex="-1"><i>🇮🇳</i>印度專利</a>
-              <a class="flag" href="foreign-patent/canada" target="_blank" rel="noopener noreferrer" aria-label="加拿大專利" tabindex="-1"><i>🇨🇦</i>加拿大專利</a>
-              <a class="flag" href="foreign-patent/spain" target="_blank" rel="noopener noreferrer" aria-label="西班牙專利" tabindex="-1"><i>🇪🇸</i>西班牙專利</a>
+              <a class="flag" href="foreign-patent/usa.php" target="_blank" rel="noopener noreferrer" aria-label="美國專利" tabindex="-1"><i>🇺🇸</i>美國專利</a>
+              <a class="flag" href="foreign-patent/china.php" target="_blank" rel="noopener noreferrer" aria-label="中國專利" tabindex="-1"><i>🇨🇳</i>中國專利</a>
+              <a class="flag" href="foreign-patent/japan.php" target="_blank" rel="noopener noreferrer" aria-label="日本專利" tabindex="-1"><i>🇯🇵</i>日本專利</a>
+              <a class="flag" href="foreign-patent/germany.php" target="_blank" rel="noopener noreferrer" aria-label="德國專利" tabindex="-1"><i>🇩🇪</i>德國專利</a>
+              <a class="flag" href="foreign-patent/uk.php" target="_blank" rel="noopener noreferrer" aria-label="英國專利" tabindex="-1"><i>🇬🇧</i>英國專利</a>
+              <a class="flag" href="foreign-patent/france.php" target="_blank" rel="noopener noreferrer" aria-label="法國專利" tabindex="-1"><i>🇫🇷</i>法國專利</a>
+              <a class="flag" href="foreign-patent/korea.php" target="_blank" rel="noopener noreferrer" aria-label="韓國專利" tabindex="-1"><i>🇰🇷</i>韓國專利</a>
+              <a class="flag" href="foreign-patent/australia.php" target="_blank" rel="noopener noreferrer" aria-label="澳洲專利" tabindex="-1"><i>🇦🇺</i>澳洲專利</a>
+              <a class="flag" href="foreign-patent/india.php" target="_blank" rel="noopener noreferrer" aria-label="印度專利" tabindex="-1"><i>🇮🇳</i>印度專利</a>
+              <a class="flag" href="foreign-patent/canada.php" target="_blank" rel="noopener noreferrer" aria-label="加拿大專利" tabindex="-1"><i>🇨🇦</i>加拿大專利</a>
+              <a class="flag" href="foreign-patent/spain.php" target="_blank" rel="noopener noreferrer" aria-label="西班牙專利" tabindex="-1"><i>🇪🇸</i>西班牙專利</a>
             </div>
           </div>
 
           <!-- Row 2：向右滾動 -->
           <div class="marquee-row">
             <div class="marquee-track rtl" aria-hidden="false">
-              <a class="flag" href="foreign-patent/italy" target="_blank" rel="noopener noreferrer" aria-label="義大利專利"><i>🇮🇹</i>義大利專利</a>
-              <a class="flag" href="foreign-patent/brazil" target="_blank" rel="noopener noreferrer" aria-label="巴西專利"><i>🇧🇷</i>巴西專利</a>
+              <a class="flag" href="foreign-patent/italy.php" target="_blank" rel="noopener noreferrer" aria-label="義大利專利"><i>🇮🇹</i>義大利專利</a>
+              <a class="flag" href="foreign-patent/brazil.php" target="_blank" rel="noopener noreferrer" aria-label="巴西專利"><i>🇧🇷</i>巴西專利</a>
               <div class="flag"><i>🇷🇺</i>俄羅斯專利</div>
-              <a class="flag" href="foreign-patent/malaysia" target="_blank" rel="noopener noreferrer" aria-label="馬來西亞專利"><i>🇲🇾</i>馬來西亞專利</a>
-              <a class="flag" href="foreign-patent/thailand" target="_blank" rel="noopener noreferrer" aria-label="泰國專利"><i>🇹🇭</i>泰國專利</a>
-              <a class="flag" href="foreign-patent/vietnam" target="_blank" rel="noopener noreferrer" aria-label="越南專利"><i>🇻🇳</i>越南專利</a>
-              <a class="flag" href="foreign-patent/singapore" target="_blank" rel="noopener noreferrer" aria-label="新加坡專利"><i>🇸🇬</i>新加坡專利</a>
-              <a class="flag" href="foreign-patent/philippines" target="_blank" rel="noopener noreferrer" aria-label="菲律賓專利"><i>🇵🇭</i>菲律賓專利</a>
-              <a class="flag" href="foreign-patent/indonesia" target="_blank" rel="noopener noreferrer" aria-label="印尼專利"><i>🇮🇩</i>印尼專利</a>
-              <a class="flag" href="foreign-patent/saudi-arabia" target="_blank" rel="noopener noreferrer" aria-label="沙烏地阿拉伯專利"><i>🇸🇦</i>沙烏地阿拉伯專利</a>
+              <a class="flag" href="foreign-patent/malaysia.php" target="_blank" rel="noopener noreferrer" aria-label="馬來西亞專利"><i>🇲🇾</i>馬來西亞專利</a>
+              <a class="flag" href="foreign-patent/thailand.php" target="_blank" rel="noopener noreferrer" aria-label="泰國專利"><i>🇹🇭</i>泰國專利</a>
+              <a class="flag" href="foreign-patent/vietnam.php" target="_blank" rel="noopener noreferrer" aria-label="越南專利"><i>🇻🇳</i>越南專利</a>
+              <a class="flag" href="foreign-patent/singapore.php" target="_blank" rel="noopener noreferrer" aria-label="新加坡專利"><i>🇸🇬</i>新加坡專利</a>
+              <a class="flag" href="foreign-patent/philippines.php" target="_blank" rel="noopener noreferrer" aria-label="菲律賓專利"><i>🇵🇭</i>菲律賓專利</a>
+              <a class="flag" href="foreign-patent/indonesia.php" target="_blank" rel="noopener noreferrer" aria-label="印尼專利"><i>🇮🇩</i>印尼專利</a>
+              <a class="flag" href="foreign-patent/saudi-arabia.php" target="_blank" rel="noopener noreferrer" aria-label="沙烏地阿拉伯專利"><i>🇸🇦</i>沙烏地阿拉伯專利</a>
               <div class="flag"><i>🇿🇦</i>南非專利</div>
             </div>
             <div class="marquee-track rtl" aria-hidden="true">
-              <a class="flag" href="foreign-patent/italy" target="_blank" rel="noopener noreferrer" aria-label="義大利專利" tabindex="-1"><i>🇮🇹</i>義大利專利</a>
-              <a class="flag" href="foreign-patent/brazil" target="_blank" rel="noopener noreferrer" aria-label="巴西專利" tabindex="-1"><i>🇧🇷</i>巴西專利</a>
+              <a class="flag" href="foreign-patent/italy.php" target="_blank" rel="noopener noreferrer" aria-label="義大利專利" tabindex="-1"><i>🇮🇹</i>義大利專利</a>
+              <a class="flag" href="foreign-patent/brazil.php" target="_blank" rel="noopener noreferrer" aria-label="巴西專利" tabindex="-1"><i>🇧🇷</i>巴西專利</a>
               <div class="flag"><i>🇷🇺</i>俄羅斯專利</div>
-              <a class="flag" href="foreign-patent/malaysia" target="_blank" rel="noopener noreferrer" aria-label="馬來西亞專利" tabindex="-1"><i>🇲🇾</i>馬來西亞專利</a>
-              <a class="flag" href="foreign-patent/thailand" target="_blank" rel="noopener noreferrer" aria-label="泰國專利" tabindex="-1"><i>🇹🇭</i>泰國專利</a>
-              <a class="flag" href="foreign-patent/vietnam" target="_blank" rel="noopener noreferrer" aria-label="越南專利" tabindex="-1"><i>🇻🇳</i>越南專利</a>
-              <a class="flag" href="foreign-patent/singapore" target="_blank" rel="noopener noreferrer" aria-label="新加坡專利" tabindex="-1"><i>🇸🇬</i>新加坡專利</a>
-              <a class="flag" href="foreign-patent/philippines" target="_blank" rel="noopener noreferrer" aria-label="菲律賓專利" tabindex="-1"><i>🇵🇭</i>菲律賓專利</a>
-              <a class="flag" href="foreign-patent/indonesia" target="_blank" rel="noopener noreferrer" aria-label="印尼專利" tabindex="-1"><i>🇮🇩</i>印尼專利</a>
-              <a class="flag" href="foreign-patent/saudi-arabia" target="_blank" rel="noopener noreferrer" aria-label="沙烏地阿拉伯專利" tabindex="-1"><i>🇸🇦</i>沙烏地阿拉伯專利</a>
+              <a class="flag" href="foreign-patent/malaysia.php" target="_blank" rel="noopener noreferrer" aria-label="馬來西亞專利" tabindex="-1"><i>🇲🇾</i>馬來西亞專利</a>
+              <a class="flag" href="foreign-patent/thailand.php" target="_blank" rel="noopener noreferrer" aria-label="泰國專利" tabindex="-1"><i>🇹🇭</i>泰國專利</a>
+              <a class="flag" href="foreign-patent/vietnam.php" target="_blank" rel="noopener noreferrer" aria-label="越南專利" tabindex="-1"><i>🇻🇳</i>越南專利</a>
+              <a class="flag" href="foreign-patent/singapore.php" target="_blank" rel="noopener noreferrer" aria-label="新加坡專利" tabindex="-1"><i>🇸🇬</i>新加坡專利</a>
+              <a class="flag" href="foreign-patent/philippines.php" target="_blank" rel="noopener noreferrer" aria-label="菲律賓專利" tabindex="-1"><i>🇵🇭</i>菲律賓專利</a>
+              <a class="flag" href="foreign-patent/indonesia.php" target="_blank" rel="noopener noreferrer" aria-label="印尼專利" tabindex="-1"><i>🇮🇩</i>印尼專利</a>
+              <a class="flag" href="foreign-patent/saudi-arabia.php" target="_blank" rel="noopener noreferrer" aria-label="沙烏地阿拉伯專利" tabindex="-1"><i>🇸🇦</i>沙烏地阿拉伯專利</a>
               <div class="flag"><i>🇿🇦</i>南非專利</div>
             </div>
           </div>
@@ -112,30 +112,30 @@ include dirname(__FILE__) . '/include/header.php';
           <!-- Row 3：向左滾動（較慢） -->
           <div class="marquee-row">
             <div class="marquee-track ltr-slow" aria-hidden="false">
-              <a class="flag" href="foreign-trademark/uae" target="_blank" rel="noopener noreferrer" aria-label="阿拉伯聯合大公國商標"><i>🇦🇪</i>阿拉伯聯合大公國商標</a>
-              <a class="flag" href="foreign-trademark/israel" target="_blank" rel="noopener noreferrer" aria-label="以色列商標"><i>🇮🇱</i>以色列商標</a>
-              <a class="flag" href="foreign-trademark/argentina" target="_blank" rel="noopener noreferrer" aria-label="阿根廷商標"><i>🇦🇷</i>阿根廷商標</a>
-              <a class="flag" href="foreign-trademark/hong-kong" target="_blank" rel="noopener noreferrer" aria-label="香港商標"><i>🇭🇰</i>香港商標</a>
-              <a class="flag" href="foreign-trademark/colombia" target="_blank" rel="noopener noreferrer" aria-label="哥倫比亞商標"><i>🇨🇴</i>哥倫比亞商標</a>
-              <a class="flag" href="foreign-trademark/chile" target="_blank" rel="noopener noreferrer" aria-label="智利商標"><i>🇨🇱</i>智利商標</a>
-              <a class="flag" href="foreign-trademark/new-zealand" target="_blank" rel="noopener noreferrer" aria-label="紐西蘭商標"><i>🇳🇿</i>紐西蘭商標</a>
-              <a class="flag" href="foreign-trademark/macao" target="_blank" rel="noopener noreferrer" aria-label="澳門商標"><i>🇲🇴</i>澳門商標</a>
+              <a class="flag" href="foreign-trademark/uae.php" target="_blank" rel="noopener noreferrer" aria-label="阿拉伯聯合大公國商標"><i>🇦🇪</i>阿拉伯聯合大公國商標</a>
+              <a class="flag" href="foreign-trademark/israel.php" target="_blank" rel="noopener noreferrer" aria-label="以色列商標"><i>🇮🇱</i>以色列商標</a>
+              <a class="flag" href="foreign-trademark/argentina.php" target="_blank" rel="noopener noreferrer" aria-label="阿根廷商標"><i>🇦🇷</i>阿根廷商標</a>
+              <a class="flag" href="foreign-trademark/hong-kong.php" target="_blank" rel="noopener noreferrer" aria-label="香港商標"><i>🇭🇰</i>香港商標</a>
+              <a class="flag" href="foreign-trademark/colombia.php" target="_blank" rel="noopener noreferrer" aria-label="哥倫比亞商標"><i>🇨🇴</i>哥倫比亞商標</a>
+              <a class="flag" href="foreign-trademark/chile.php" target="_blank" rel="noopener noreferrer" aria-label="智利商標"><i>🇨🇱</i>智利商標</a>
+              <a class="flag" href="foreign-trademark/new-zealand.php" target="_blank" rel="noopener noreferrer" aria-label="紐西蘭商標"><i>🇳🇿</i>紐西蘭商標</a>
+              <a class="flag" href="foreign-trademark/macao.php" target="_blank" rel="noopener noreferrer" aria-label="澳門商標"><i>🇲🇴</i>澳門商標</a>
               <div class="flag"><i>🇨🇿</i>捷克商標</div>
-              <a class="flag" href="foreign-trademark/australia" target="_blank" rel="noopener noreferrer" aria-label="澳洲商標"><i>🇦🇺</i>澳洲商標</a>
-              <a class="flag" href="foreign-trademark/usa" target="_blank" rel="noopener noreferrer" aria-label="美國商標"><i>🇺🇸</i>美國商標</a>
+              <a class="flag" href="foreign-trademark/australia.php" target="_blank" rel="noopener noreferrer" aria-label="澳洲商標"><i>🇦🇺</i>澳洲商標</a>
+              <a class="flag" href="foreign-trademark/usa.php" target="_blank" rel="noopener noreferrer" aria-label="美國商標"><i>🇺🇸</i>美國商標</a>
             </div>
             <div class="marquee-track ltr-slow" aria-hidden="true">
-              <a class="flag" href="foreign-trademark/uae" target="_blank" rel="noopener noreferrer" aria-label="阿拉伯聯合大公國商標" tabindex="-1"><i>🇦🇪</i>阿拉伯聯合大公國商標</a>
-              <a class="flag" href="foreign-trademark/israel" target="_blank" rel="noopener noreferrer" aria-label="以色列商標" tabindex="-1"><i>🇮🇱</i>以色列商標</a>
-              <a class="flag" href="foreign-trademark/argentina" target="_blank" rel="noopener noreferrer" aria-label="阿根廷商標" tabindex="-1"><i>🇦🇷</i>阿根廷商標</a>
-              <a class="flag" href="foreign-trademark/hong-kong" target="_blank" rel="noopener noreferrer" aria-label="香港商標" tabindex="-1"><i>🇭🇰</i>香港商標</a>
-              <a class="flag" href="foreign-trademark/colombia" target="_blank" rel="noopener noreferrer" aria-label="哥倫比亞商標" tabindex="-1"><i>🇨🇴</i>哥倫比亞商標</a>
-              <a class="flag" href="foreign-trademark/chile" target="_blank" rel="noopener noreferrer" aria-label="智利商標" tabindex="-1"><i>🇨🇱</i>智利商標</a>
-              <a class="flag" href="foreign-trademark/new-zealand" target="_blank" rel="noopener noreferrer" aria-label="紐西蘭商標" tabindex="-1"><i>🇳🇿</i>紐西蘭商標</a>
-              <a class="flag" href="foreign-trademark/macao" target="_blank" rel="noopener noreferrer" aria-label="澳門商標" tabindex="-1"><i>🇲🇴</i>澳門商標</a>
+              <a class="flag" href="foreign-trademark/uae.php" target="_blank" rel="noopener noreferrer" aria-label="阿拉伯聯合大公國商標" tabindex="-1"><i>🇦🇪</i>阿拉伯聯合大公國商標</a>
+              <a class="flag" href="foreign-trademark/israel.php" target="_blank" rel="noopener noreferrer" aria-label="以色列商標" tabindex="-1"><i>🇮🇱</i>以色列商標</a>
+              <a class="flag" href="foreign-trademark/argentina.php" target="_blank" rel="noopener noreferrer" aria-label="阿根廷商標" tabindex="-1"><i>🇦🇷</i>阿根廷商標</a>
+              <a class="flag" href="foreign-trademark/hong-kong.php" target="_blank" rel="noopener noreferrer" aria-label="香港商標" tabindex="-1"><i>🇭🇰</i>香港商標</a>
+              <a class="flag" href="foreign-trademark/colombia.php" target="_blank" rel="noopener noreferrer" aria-label="哥倫比亞商標" tabindex="-1"><i>🇨🇴</i>哥倫比亞商標</a>
+              <a class="flag" href="foreign-trademark/chile.php" target="_blank" rel="noopener noreferrer" aria-label="智利商標" tabindex="-1"><i>🇨🇱</i>智利商標</a>
+              <a class="flag" href="foreign-trademark/new-zealand.php" target="_blank" rel="noopener noreferrer" aria-label="紐西蘭商標" tabindex="-1"><i>🇳🇿</i>紐西蘭商標</a>
+              <a class="flag" href="foreign-trademark/macao.php" target="_blank" rel="noopener noreferrer" aria-label="澳門商標" tabindex="-1"><i>🇲🇴</i>澳門商標</a>
               <div class="flag"><i>🇨🇿</i>捷克商標</div>
-              <a class="flag" href="foreign-trademark/australia" target="_blank" rel="noopener noreferrer" aria-label="澳洲商標" tabindex="-1"><i>🇦🇺</i>澳洲商標</a>
-              <a class="flag" href="foreign-trademark/usa" target="_blank" rel="noopener noreferrer" aria-label="美國商標" tabindex="-1"><i>🇺🇸</i>美國商標</a>
+              <a class="flag" href="foreign-trademark/australia.php" target="_blank" rel="noopener noreferrer" aria-label="澳洲商標" tabindex="-1"><i>🇦🇺</i>澳洲商標</a>
+              <a class="flag" href="foreign-trademark/usa.php" target="_blank" rel="noopener noreferrer" aria-label="美國商標" tabindex="-1"><i>🇺🇸</i>美國商標</a>
             </div>
           </div>
 
@@ -155,11 +155,11 @@ include dirname(__FILE__) . '/include/header.php';
                 <strong>國外專利</strong>
               </div>
               <div class="pills">
-                <a class="pill" href="foreign-patent?tab=foreign-patent-overview" id="pill-fp-1">國外專利制度<span class="pill-arrow">→</span></a>
-                <a class="pill" href="foreign-patent?tab=foreign-patent-pct" id="pill-fp-2">PCT專利合作條約<span class="pill-arrow">→</span></a>
-                <a class="pill" href="foreign-patent?tab=foreign-patent-epc" id="pill-fp-3">EPC歐洲專利條約<span class="pill-arrow">→</span></a>
-                <a class="pill" href="foreign-patent?tab=foreign-patent-eu" id="pill-fp-4">REUD歐盟註冊設計<span class="pill-arrow">→</span></a>
-                <a class="pill" href="foreign-patent?tab=foreign-patent-search" id="pill-fp-5">專利檢索<span class="pill-arrow">→</span></a>
+                <a class="pill" href="foreign-patent.php?tab=foreign-patent-overview" id="pill-fp-1">國外專利制度<span class="pill-arrow">→</span></a>
+                <a class="pill" href="foreign-patent.php?tab=foreign-patent-pct" id="pill-fp-2">PCT專利合作條約<span class="pill-arrow">→</span></a>
+                <a class="pill" href="foreign-patent.php?tab=foreign-patent-epc" id="pill-fp-3">EPC歐洲專利條約<span class="pill-arrow">→</span></a>
+                <a class="pill" href="foreign-patent.php?tab=foreign-patent-eu" id="pill-fp-4">REUD歐盟註冊設計<span class="pill-arrow">→</span></a>
+                <a class="pill" href="foreign-patent.php?tab=foreign-patent-search" id="pill-fp-5">專利檢索<span class="pill-arrow">→</span></a>
               </div>
             </div>
 
@@ -169,10 +169,10 @@ include dirname(__FILE__) . '/include/header.php';
                 <strong>國內專利</strong>
               </div>
               <div class="pills">
-                <a class="pill" href="domestic-patent?tab=domestic-patent-regulation" target="_blank" rel="noopener noreferrer" id="pill-dp-1">專利法規制度<span class="pill-arrow">→</span></a>
-                <a class="pill" href="domestic-patent?tab=domestic-patent-invention" target="_blank" rel="noopener noreferrer" id="pill-dp-2">發明專利案審查及行政救濟流程<span class="pill-arrow">→</span></a>
-                <a class="pill" href="domestic-patent?tab=domestic-patent-utility" target="_blank" rel="noopener noreferrer" id="pill-dp-3">新型專利案審查及行政救濟流程<span class="pill-arrow">→</span></a>
-                <a class="pill" href="domestic-patent?tab=domestic-patent-design" target="_blank" rel="noopener noreferrer" id="pill-dp-4">設計專利案審查及行政救濟流程<span class="pill-arrow">→</span></a>
+                <a class="pill" href="domestic-patent.php?tab=domestic-patent-regulation" target="_blank" rel="noopener noreferrer" id="pill-dp-1">專利法規制度<span class="pill-arrow">→</span></a>
+                <a class="pill" href="domestic-patent.php?tab=domestic-patent-invention" target="_blank" rel="noopener noreferrer" id="pill-dp-2">發明專利案審查及行政救濟流程<span class="pill-arrow">→</span></a>
+                <a class="pill" href="domestic-patent.php?tab=domestic-patent-utility" target="_blank" rel="noopener noreferrer" id="pill-dp-3">新型專利案審查及行政救濟流程<span class="pill-arrow">→</span></a>
+                <a class="pill" href="domestic-patent.php?tab=domestic-patent-design" target="_blank" rel="noopener noreferrer" id="pill-dp-4">設計專利案審查及行政救濟流程<span class="pill-arrow">→</span></a>
                 <a class="pill" href="https://twpat.tipo.gov.tw/" target="_blank" rel="noopener noreferrer" id="pill-dp-5">專利檢索<span class="pill-arrow">→</span></a>
               </div>
             </div>
@@ -183,9 +183,9 @@ include dirname(__FILE__) . '/include/header.php';
                 <strong>國外商標</strong>
               </div>
               <div class="pills">
-                <a class="pill" href="foreign-trademark?tab=foreign-trademark-overview" id="pill-ft-1">國外商標制度<span class="pill-arrow">→</span></a>
-                <a class="pill" href="foreign-trademark?tab=foreign-trademark-eutm" id="pill-ft-2">EUTM歐盟商標<span class="pill-arrow">→</span></a>
-                <a class="pill" href="foreign-trademark?tab=foreign-trademark-search" id="pill-ft-3">商標檢索<span class="pill-arrow">→</span></a>
+                <a class="pill" href="foreign-trademark.php?tab=foreign-trademark-overview" id="pill-ft-1">國外商標制度<span class="pill-arrow">→</span></a>
+                <a class="pill" href="foreign-trademark.php?tab=foreign-trademark-eutm" id="pill-ft-2">EUTM歐盟商標<span class="pill-arrow">→</span></a>
+                <a class="pill" href="foreign-trademark.php?tab=foreign-trademark-search" id="pill-ft-3">商標檢索<span class="pill-arrow">→</span></a>
               </div>
             </div>
 
@@ -195,8 +195,8 @@ include dirname(__FILE__) . '/include/header.php';
                 <strong>國內商標</strong>
               </div>
               <div class="pills">
-                <a class="pill" href="domestic-trademark?tab=domestic-trademark-regulation" target="_blank" rel="noopener noreferrer" id="pill-dt-1">商標法規制度<span class="pill-arrow">→</span></a>
-                <a class="pill" href="domestic-trademark?tab=domestic-trademark-flow" target="_blank" rel="noopener noreferrer" id="pill-dt-2">商標審查及行政救濟流程<span class="pill-arrow">→</span></a>
+                <a class="pill" href="domestic-trademark.php?tab=domestic-trademark-regulation" target="_blank" rel="noopener noreferrer" id="pill-dt-1">商標法規制度<span class="pill-arrow">→</span></a>
+                <a class="pill" href="domestic-trademark.php?tab=domestic-trademark-flow" target="_blank" rel="noopener noreferrer" id="pill-dt-2">商標審查及行政救濟流程<span class="pill-arrow">→</span></a>
                 <a class="pill" href="https://twtmsearch.tipo.gov.tw/OS0/OS0101.jsp" target="_blank" rel="noopener noreferrer" id="pill-dt-3">商標檢索<span class="pill-arrow">→</span></a>
               </div>
             </div>

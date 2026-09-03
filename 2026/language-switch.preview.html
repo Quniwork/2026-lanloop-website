@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nav-lang-wrap — 8 states</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/language-switch.css">
+  <style>
+    body { padding: 32px; }
+    main { width: min(38rem, 100%); margin: 0 auto; }
+    h1 { margin-block-end: 28px; font-size: 24px; }
+    .preview-list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
+    .preview-item { min-height: 168px; display: grid; align-content: start; gap: 12px; }
+    .preview-item > span { color: var(--muted); font-size: 13px; }
+    .preview-item .nav-lang-wrap { justify-self: start; }
+    @media (max-width: 40rem) { .preview-list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>nav-lang-wrap — 8 states</h1>
+    <div class="preview-list" id="previewList"></div>
+  </main>
+  <script>
+    (function () {
+      var states = [
+        ['Default', '', ''], ['Hover', 'is-hover', ''], ['Focus', 'is-focus', ''],
+        ['Active', 'is-active', ''], ['Disabled', 'is-disabled', 'disabled'],
+        ['Loading', '', 'loading'], ['Error', '', 'error'], ['Success', '', 'success']
+      ];
+      var list = document.getElementById('previewList');
+      for (var i = 0; i < states.length; i += 1) {
+        var item = document.createElement('div');
+        var stateAttr = states[i][2] ? ' data-state="' + states[i][2] + '"' : '';
+        var disabledAttr = states[i][0] === 'Disabled' ? ' disabled' : '';
+        item.className = 'preview-item';
+        item.innerHTML = '<span>' + states[i][0] + '</span><div class="nav-lang-wrap is-open"><button class="nav-lang ' + states[i][1] + '" type="button"' + stateAttr + disabledAttr + ' aria-expanded="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.4 2.5 3.7 5.5 3.7 9s-1.3 6.5-3.7 9c-2.4-2.5-3.7-5.5-3.7-9S9.6 5.5 12 3z"></path></svg></button><div class="lang-dropdown"><span class="lang-opt is-current">繁體中文</span><a class="lang-opt" href="#">English</a></div></div>';
+        list.appendChild(item);
+      }
+    }());
+  </script>
+</body>
+</html>

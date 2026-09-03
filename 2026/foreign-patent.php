@@ -18,7 +18,7 @@ include dirname(__FILE__) . '/include/header.php';
       <header class="page-header" aria-labelledby="foreign-patent-title">
         <h1 id="foreign-patent-title">國外專利 <small>Foreign Patent</small></h1>
         <nav class="page-breadcrumb" aria-label="麵包屑">
-          <a href="index">首頁</a>
+          <a href="index.php">首頁</a>
           <span aria-hidden="true">/</span>
           <span aria-current="page">國外專利</span>
         </nav>
@@ -40,53 +40,53 @@ include dirname(__FILE__) . '/include/header.php';
                 <section class="country-region" aria-labelledby="region-asia">
                   <div class="country-region-title" id="region-asia"><small>Asia</small><strong>亞洲地區</strong></div>
                   <div class="country-buttons">
-                    <a class="country-button" href="foreign-patent/china" target="_blank" rel="noopener noreferrer" data-country="中國" data-flag="🇨🇳" data-info="發明20年／新型10年／設計15年。大陸專利權之授予不同時授予香港及澳門。"><i>🇨🇳</i>中國</a>
-                    <a class="country-button" href="foreign-patent/indonesia" target="_blank" rel="noopener noreferrer" data-country="印尼" data-flag="🇮🇩" data-info="印尼專利制度依申請類型及當地法規辦理，實際申請與維護期限應由專業人員確認。"><i>🇮🇩</i>印尼</a>
-                    <a class="country-button" href="foreign-patent/japan" target="_blank" rel="noopener noreferrer" data-country="日本" data-flag="🇯🇵" data-info="發明20年／新型10年／設計25年。發明與設計採審查制，申請公開後可主張臨時保護。"><i>🇯🇵</i>日本</a>
-                    <a class="country-button" href="foreign-patent/thailand" target="_blank" rel="noopener noreferrer" data-country="泰國" data-flag="🇹🇭" data-info="泰國專利申請、審查及權利維護依當地專利法規辦理。"><i>🇹🇭</i>泰國</a>
-                    <a class="country-button" href="foreign-patent/korea" target="_blank" rel="noopener noreferrer" data-country="韓國" data-flag="🇰🇷" data-info="發明20年／新型10年／設計20年。發明須於申請日起5年內提出實審，新型為3年。"><i>🇰🇷</i>韓國</a>
-                    <a class="country-button" href="foreign-patent/vietnam" target="_blank" rel="noopener noreferrer" data-country="越南" data-flag="🇻🇳" data-info="越南專利申請、審查及權利維護依當地專利法規辦理。"><i>🇻🇳</i>越南</a>
-                    <a class="country-button" href="foreign-patent/singapore" target="_blank" rel="noopener noreferrer" data-country="新加坡" data-flag="🇸🇬" data-info="新加坡專利申請、審查及權利維護依當地專利法規辦理。"><i>🇸🇬</i>新加坡</a>
-                    <a class="country-button" href="foreign-patent/philippines" target="_blank" rel="noopener noreferrer" data-country="菲律賓" data-flag="🇵🇭" data-info="菲律賓專利申請、審查及權利維護依當地專利法規辦理。"><i>🇵🇭</i>菲律賓</a>
-                    <a class="country-button" href="foreign-patent/malaysia" target="_blank" rel="noopener noreferrer" data-country="馬來西亞" data-flag="🇲🇾" data-info="馬來西亞專利申請、審查及權利維護依當地專利法規辦理。"><i>🇲🇾</i>馬來西亞</a>
-                    <a class="country-button" href="foreign-patent/india" target="_blank" rel="noopener noreferrer" data-country="印度" data-flag="🇮🇳" data-info="印度專利申請、審查及權利維護依當地專利法規辦理。"><i>🇮🇳</i>印度</a>
+                    <a class="country-button" href="foreign-patent/china.php" target="_blank" rel="noopener noreferrer" data-country="中國" data-flag="🇨🇳" data-info="發明20年／新型10年／設計15年。大陸專利權之授予不同時授予香港及澳門。"><i>🇨🇳</i>中國</a>
+                    <a class="country-button" href="foreign-patent/indonesia.php" target="_blank" rel="noopener noreferrer" data-country="印尼" data-flag="🇮🇩" data-info="印尼專利制度依申請類型及當地法規辦理，實際申請與維護期限應由專業人員確認。"><i>🇮🇩</i>印尼</a>
+                    <a class="country-button" href="foreign-patent/japan.php" target="_blank" rel="noopener noreferrer" data-country="日本" data-flag="🇯🇵" data-info="發明20年／新型10年／設計25年。發明與設計採審查制，申請公開後可主張臨時保護。"><i>🇯🇵</i>日本</a>
+                    <a class="country-button" href="foreign-patent/thailand.php" target="_blank" rel="noopener noreferrer" data-country="泰國" data-flag="🇹🇭" data-info="泰國專利申請、審查及權利維護依當地專利法規辦理。"><i>🇹🇭</i>泰國</a>
+                    <a class="country-button" href="foreign-patent/korea.php" target="_blank" rel="noopener noreferrer" data-country="韓國" data-flag="🇰🇷" data-info="發明20年／新型10年／設計20年。發明須於申請日起5年內提出實審，新型為3年。"><i>🇰🇷</i>韓國</a>
+                    <a class="country-button" href="foreign-patent/vietnam.php" target="_blank" rel="noopener noreferrer" data-country="越南" data-flag="🇻🇳" data-info="越南專利申請、審查及權利維護依當地專利法規辦理。"><i>🇻🇳</i>越南</a>
+                    <a class="country-button" href="foreign-patent/singapore.php" target="_blank" rel="noopener noreferrer" data-country="新加坡" data-flag="🇸🇬" data-info="新加坡專利申請、審查及權利維護依當地專利法規辦理。"><i>🇸🇬</i>新加坡</a>
+                    <a class="country-button" href="foreign-patent/philippines.php" target="_blank" rel="noopener noreferrer" data-country="菲律賓" data-flag="🇵🇭" data-info="菲律賓專利申請、審查及權利維護依當地專利法規辦理。"><i>🇵🇭</i>菲律賓</a>
+                    <a class="country-button" href="foreign-patent/malaysia.php" target="_blank" rel="noopener noreferrer" data-country="馬來西亞" data-flag="🇲🇾" data-info="馬來西亞專利申請、審查及權利維護依當地專利法規辦理。"><i>🇲🇾</i>馬來西亞</a>
+                    <a class="country-button" href="foreign-patent/india.php" target="_blank" rel="noopener noreferrer" data-country="印度" data-flag="🇮🇳" data-info="印度專利申請、審查及權利維護依當地專利法規辦理。"><i>🇮🇳</i>印度</a>
                   </div>
                 </section>
 
                 <section class="country-region" aria-labelledby="region-europe">
                   <div class="country-region-title" id="region-europe"><small>Europe</small><strong>歐洲地區</strong></div>
                   <div class="country-buttons">
-                    <a class="country-button" href="foreign-patent/germany" target="_blank" rel="noopener noreferrer" data-country="德國" data-flag="🇩🇪" data-info="發明20年／新型10年／設計25年。新型專利雖無實體審查，仍可請求新穎性調查。"><i>🇩🇪</i>德國</a>
-                    <a class="country-button" href="foreign-patent/uk" target="_blank" rel="noopener noreferrer" data-country="英國" data-flag="🇬🇧" data-info="發明20年／設計25年。專利保護範圍可能延伸至部分大英國協國家。"><i>🇬🇧</i>英國</a>
-                    <a class="country-button" href="foreign-patent/france" target="_blank" rel="noopener noreferrer" data-country="法國" data-flag="🇫🇷" data-info="發明20年／新型10年／設計25年。設計專利自申請日起每5年延長一次，最多4次。"><i>🇫🇷</i>法國</a>
-                    <a class="country-button" href="foreign-patent/italy" target="_blank" rel="noopener noreferrer" data-country="義大利" data-flag="🇮🇹" data-info="義大利專利申請、審查及權利維護依當地專利法規辦理。"><i>🇮🇹</i>義大利</a>
-                    <a class="country-button" href="foreign-patent/spain" target="_blank" rel="noopener noreferrer" data-country="西班牙" data-flag="🇪🇸" data-info="西班牙專利申請、審查及權利維護依當地專利法規辦理。"><i>🇪🇸</i>西班牙</a>
+                    <a class="country-button" href="foreign-patent/germany.php" target="_blank" rel="noopener noreferrer" data-country="德國" data-flag="🇩🇪" data-info="發明20年／新型10年／設計25年。新型專利雖無實體審查，仍可請求新穎性調查。"><i>🇩🇪</i>德國</a>
+                    <a class="country-button" href="foreign-patent/uk.php" target="_blank" rel="noopener noreferrer" data-country="英國" data-flag="🇬🇧" data-info="發明20年／設計25年。專利保護範圍可能延伸至部分大英國協國家。"><i>🇬🇧</i>英國</a>
+                    <a class="country-button" href="foreign-patent/france.php" target="_blank" rel="noopener noreferrer" data-country="法國" data-flag="🇫🇷" data-info="發明20年／新型10年／設計25年。設計專利自申請日起每5年延長一次，最多4次。"><i>🇫🇷</i>法國</a>
+                    <a class="country-button" href="foreign-patent/italy.php" target="_blank" rel="noopener noreferrer" data-country="義大利" data-flag="🇮🇹" data-info="義大利專利申請、審查及權利維護依當地專利法規辦理。"><i>🇮🇹</i>義大利</a>
+                    <a class="country-button" href="foreign-patent/spain.php" target="_blank" rel="noopener noreferrer" data-country="西班牙" data-flag="🇪🇸" data-info="西班牙專利申請、審查及權利維護依當地專利法規辦理。"><i>🇪🇸</i>西班牙</a>
                   </div>
                 </section>
 
                 <section class="country-region" aria-labelledby="region-americas">
                   <div class="country-region-title" id="region-americas"><small>Americas</small><strong>美洲地區</strong></div>
                   <div class="country-buttons">
-                    <a class="country-button" href="foreign-patent/usa" target="_blank" rel="noopener noreferrer" data-country="美國" data-flag="🇺🇸" data-info="發明20年／設計15年。發明專利須依規定繳納維持費，設計專利毋需繳納年費。"><i>🇺🇸</i>美國</a>
-                    <a class="country-button" href="foreign-patent/canada" target="_blank" rel="noopener noreferrer" data-country="加拿大" data-flag="🇨🇦" data-info="發明20年／設計10年。純屬功能性或無法單獨使用之外觀設計，無法取得設計專利權。"><i>🇨🇦</i>加拿大</a>
-                    <a class="country-button" href="foreign-patent/brazil" target="_blank" rel="noopener noreferrer" data-country="巴西" data-flag="🇧🇷" data-info="巴西專利申請、審查及權利維護依當地專利法規辦理。"><i>🇧🇷</i>巴西</a>
-                    <a class="country-button" href="foreign-patent/chile" target="_blank" rel="noopener noreferrer" data-country="智利" data-flag="🇨🇱" data-info="智利專利申請、審查及權利維護依當地專利法規辦理。"><i>🇨🇱</i>智利</a>
+                    <a class="country-button" href="foreign-patent/usa.php" target="_blank" rel="noopener noreferrer" data-country="美國" data-flag="🇺🇸" data-info="發明20年／設計15年。發明專利須依規定繳納維持費，設計專利毋需繳納年費。"><i>🇺🇸</i>美國</a>
+                    <a class="country-button" href="foreign-patent/canada.php" target="_blank" rel="noopener noreferrer" data-country="加拿大" data-flag="🇨🇦" data-info="發明20年／設計10年。純屬功能性或無法單獨使用之外觀設計，無法取得設計專利權。"><i>🇨🇦</i>加拿大</a>
+                    <a class="country-button" href="foreign-patent/brazil.php" target="_blank" rel="noopener noreferrer" data-country="巴西" data-flag="🇧🇷" data-info="巴西專利申請、審查及權利維護依當地專利法規辦理。"><i>🇧🇷</i>巴西</a>
+                    <a class="country-button" href="foreign-patent/chile.php" target="_blank" rel="noopener noreferrer" data-country="智利" data-flag="🇨🇱" data-info="智利專利申請、審查及權利維護依當地專利法規辦理。"><i>🇨🇱</i>智利</a>
                   </div>
                 </section>
 
                 <section class="country-region" aria-labelledby="region-oceania">
                   <div class="country-region-title" id="region-oceania"><small>Oceania</small><strong>大洋洲地區</strong></div>
                   <div class="country-buttons">
-                    <a class="country-button" href="foreign-patent/australia" target="_blank" rel="noopener noreferrer" data-country="澳洲" data-flag="🇦🇺" data-info="發明20年／設計10年。2021年起不再接受新型專利申請。"><i>🇦🇺</i>澳洲</a>
-                    <a class="country-button" href="foreign-patent/new-zealand" target="_blank" rel="noopener noreferrer" data-country="紐西蘭" data-flag="🇳🇿" data-info="紐西蘭專利申請、審查及權利維護依當地專利法規辦理。"><i>🇳🇿</i>紐西蘭</a>
+                    <a class="country-button" href="foreign-patent/australia.php" target="_blank" rel="noopener noreferrer" data-country="澳洲" data-flag="🇦🇺" data-info="發明20年／設計10年。2021年起不再接受新型專利申請。"><i>🇦🇺</i>澳洲</a>
+                    <a class="country-button" href="foreign-patent/new-zealand.php" target="_blank" rel="noopener noreferrer" data-country="紐西蘭" data-flag="🇳🇿" data-info="紐西蘭專利申請、審查及權利維護依當地專利法規辦理。"><i>🇳🇿</i>紐西蘭</a>
                   </div>
                 </section>
 
                 <section class="country-region" aria-labelledby="region-middle-east">
                   <div class="country-region-title" id="region-middle-east"><small>Middle East</small><strong>中東地區</strong></div>
                   <div class="country-buttons">
-                    <a class="country-button" href="foreign-patent/saudi-arabia" target="_blank" rel="noopener noreferrer" data-country="沙烏地阿拉伯" data-flag="🇸🇦" data-info="沙烏地阿拉伯專利申請、審查及權利維護依當地專利法規辦理。"><i>🇸🇦</i>沙烏地阿拉伯</a>
-                    <a class="country-button" href="foreign-patent/uae" target="_blank" rel="noopener noreferrer" data-country="阿拉伯聯合大公國" data-flag="🇦🇪" data-info="阿拉伯聯合大公國專利申請、審查及權利維護依當地專利法規辦理。"><i>🇦🇪</i>阿拉伯聯合大公國</a>
+                    <a class="country-button" href="foreign-patent/saudi-arabia.php" target="_blank" rel="noopener noreferrer" data-country="沙烏地阿拉伯" data-flag="🇸🇦" data-info="沙烏地阿拉伯專利申請、審查及權利維護依當地專利法規辦理。"><i>🇸🇦</i>沙烏地阿拉伯</a>
+                    <a class="country-button" href="foreign-patent/uae.php" target="_blank" rel="noopener noreferrer" data-country="阿拉伯聯合大公國" data-flag="🇦🇪" data-info="阿拉伯聯合大公國專利申請、審查及權利維護依當地專利法規辦理。"><i>🇦🇪</i>阿拉伯聯合大公國</a>
                   </div>
                 </section>
               </div>
