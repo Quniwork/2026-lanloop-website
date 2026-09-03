@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：越南國家智慧財產局（National Office of Intellectual Property of Vietnam，IP Vietnam）</p>
+            <p>主管機關：<a href="https://www.ipvietnam.gov.vn/en/web/english/home" target="_blank" rel="noopener noreferrer">越南國家智慧財產局（National Office of Intellectual Property of Vietnam，IP Vietnam）</a></p>
           </header>
 
           <section class="article-row">

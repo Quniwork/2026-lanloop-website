@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：印度商標局（Trade Marks Registry）</p>
+            <p>主管機關：<a href="https://ipindia.gov.in/" target="_blank" rel="noopener noreferrer">印度商標局（Trade Marks Registry）</a></p>
           </header>
 
           <section class="article-row">

@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：歐盟智慧財產局(European Union Intellectual Property Office, EUIPO)</p>
+            <p>主管機關：<a href="https://www.euipo.europa.eu/en" target="_blank" rel="noopener noreferrer">歐盟智慧財產局(European Union Intellectual Property Office, EUIPO)</a></p>
           </header>
 
           <section class="article-row">

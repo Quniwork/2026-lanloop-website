@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：以色列專利局商標處（Israel Patent Office / Israel Trademarks Department, ILPO）</p>
+            <p>主管機關：<a href="https://www.gov.il/en/pages/tm-online-services" target="_blank" rel="noopener noreferrer">以色列專利局商標處（Israel Patent Office / Israel Trademarks Department, ILPO）</a></p>
           </header>
 
           <section class="article-row">

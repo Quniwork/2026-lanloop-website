@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：義大利專利商標局（Ufficio Italiano Brevetti e Marchi, UIBM）</p>
+            <p>主管機關：<a href="https://uibm.mise.gov.it/index.php/it/" target="_blank" rel="noopener noreferrer">義大利專利商標局（Ufficio Italiano Brevetti e Marchi, UIBM）</a></p>
           </header>
 
           <section class="article-row">

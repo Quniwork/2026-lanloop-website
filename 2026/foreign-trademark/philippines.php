@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：菲律賓智慧財產局（Intellectual Property Office of the PhilippinesI，POPHL）</p>
+            <p>主管機關：<a href="https://www.ipophil.gov.ph/" target="_blank" rel="noopener noreferrer">菲律賓智慧財產局（Intellectual Property Office of the PhilippinesI，POPHL）</a></p>
           </header>
 
           <section class="article-row">

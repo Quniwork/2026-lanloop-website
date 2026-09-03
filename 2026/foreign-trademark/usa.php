@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：美國專利商標局(United States Patent and Trademark Office, USPTO)</p>
+            <p>主管機關：<a href="https://www.uspto.gov/" target="_blank" rel="noopener noreferrer">美國專利商標局(United States Patent and Trademark Office, USPTO)</a></p>
           </header>
 
           <section class="article-row">

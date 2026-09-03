@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關： 西班牙專利商標局(Oficina Española de Patentes y Marcas,OEPM)</p>
+            <p>主管機關：<a href="https://www.oepm.es/es/" target="_blank" rel="noopener noreferrer"> 西班牙專利商標局(Oficina Española de Patentes y Marcas,OEPM)</a></p>
           </header>
 
           <section class="article-row">

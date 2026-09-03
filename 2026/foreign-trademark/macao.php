@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：經濟及科技發展局(DSEDT)</p>
+            <p>主管機關：<a href="https://www.dsedt.gov.mo/zh_MO/pg_home" target="_blank" rel="noopener noreferrer">經濟及科技發展局(DSEDT)</a></p>
           </header>
 
           <section class="article-row">

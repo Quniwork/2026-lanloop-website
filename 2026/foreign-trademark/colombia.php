@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：哥倫比亞工商監督局（Superintendencia de Industria y Comercio, SIC）</p>
+            <p>主管機關：<a href="https://sedeelectronica.sic.gov.co/" target="_blank" rel="noopener noreferrer">哥倫比亞工商監督局（Superintendencia de Industria y Comercio, SIC）</a></p>
           </header>
 
           <section class="article-row">

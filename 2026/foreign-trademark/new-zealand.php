@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：紐西蘭智慧財產局(Intellectual Property Office of New Zealand, IPONZ)</p>
+            <p>主管機關：<a href="https://www.iponz.govt.nz/" target="_blank" rel="noopener noreferrer">紐西蘭智慧財產局(Intellectual Property Office of New Zealand, IPONZ)</a></p>
           </header>
 
           <section class="article-row">

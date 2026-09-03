@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：英國智慧財產局（UK Intellectual Property Office, UKIPO）</p>
+            <p>主管機關：<a href="https://www.gov.uk/government/organisations/intellectual-property-office" target="_blank" rel="noopener noreferrer">英國智慧財產局（UK Intellectual Property Office, UKIPO）</a></p>
           </header>
 
           <section class="article-row">

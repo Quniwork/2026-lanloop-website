@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關： 法國國家工業產權局（Institut National de la Propriété Industrielle, INPI）</p>
+            <p>主管機關： <a href="https://www.inpi.fr/" target="_blank" rel="noopener noreferrer">法國國家工業產權局（Institut National de la Propriété Industrielle, INPI）</a></p>
           </header>
 
           <section class="article-row">

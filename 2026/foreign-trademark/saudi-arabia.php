@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：沙烏地阿拉伯智慧財產局（Saudi Authority for Intellectual Property, SAIP）</p>
+            <p>主管機關：<a href="https://www.saip.gov.sa/en" target="_blank" rel="noopener noreferrer">沙烏地阿拉伯智慧財產局（Saudi Authority for Intellectual Property, SAIP）</a></p>
           </header>
 
           <section class="article-row">

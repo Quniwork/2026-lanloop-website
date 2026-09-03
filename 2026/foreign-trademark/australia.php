@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：澳洲智慧財產局（IP Australia）</p>
+            <p>主管機關：<a href="https://www.ipaustralia.gov.au/" target="_blank" rel="noopener noreferrer">澳洲智慧財產局（IP Australia）</a></p>
           </header>
 
           <section class="article-row">

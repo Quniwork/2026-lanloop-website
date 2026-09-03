@@ -43,7 +43,7 @@ include dirname(__FILE__) . '/include/header.php';
               <h3 class="article-section-title">二、專利期限</h3>
                 <p>發明：申請日起 20 年。<br>
                 新型：申請日起 10 年。<br>
-                設計：申請日期 15 年。</p>
+                設計：申請日起 15 年。</p>
               <h3 class="article-section-title">三、專利歸屬</h3>
               <ol class="article-numbered-list">
                 <li>受雇人職務完成之發明、新型或設計：專利為雇用人，但契約有約定時從其約定。</li>

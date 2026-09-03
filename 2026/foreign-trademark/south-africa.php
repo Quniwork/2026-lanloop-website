@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：南非公司暨智慧財產委員會（Companies and Intellectual Property Commission, CIPC）</p>
+            <p>主管機關：<a href="https://www.cipc.co.za/" target="_blank" rel="noopener noreferrer">南非公司暨智慧財產委員會（Companies and Intellectual Property Commission, CIPC）</a></p>
           </header>
 
           <section class="article-row">

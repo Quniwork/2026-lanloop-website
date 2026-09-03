@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關： 德國專利商標局（Deutsches Patent- und Markenamt, DPMA）</p>
+            <p>主管機關： <a href="https://www.dpma.de/" target="_blank" rel="noopener noreferrer">德國專利商標局（Deutsches Patent- und Markenamt, DPMA）</a></p>
           </header>
 
           <section class="article-row">

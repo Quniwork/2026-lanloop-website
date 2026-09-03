@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關： 加拿大智慧財產局(Canadian Intellectual Property Office, CIPO)</p>
+            <p>主管機關： <a href="https://ised-isde.canada.ca/site/canadian-intellectual-property-office/en" target="_blank" rel="noopener noreferrer">加拿大智慧財產局(Canadian Intellectual Property Office, CIPO)</a></p>
           </header>
 
           <section class="article-row">

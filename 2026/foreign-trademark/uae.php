@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：阿聯酋經濟與旅遊部商標局（Ministry of Economy and Tourism, MoET）</p>
+            <p>主管機關：<a href="https://www.moet.gov.ae/en/home" target="_blank" rel="noopener noreferrer">阿聯酋經濟與旅遊部商標局（Ministry of Economy and Tourism, MoET）</a></p>
           </header>
 
           <section class="article-row">

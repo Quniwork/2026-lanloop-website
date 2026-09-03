@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：中國國家知識產權局(China National Intellectual Property Administration，CNIPA)</p>
+            <p>主管機關：<a href="https://www.cnipa.gov.cn/" target="_blank" rel="noopener noreferrer">中國國家知識產權局(China National Intellectual Property Administration，CNIPA)</a></p>
           </header>
 
           <section class="article-row">

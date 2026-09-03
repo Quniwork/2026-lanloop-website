@@ -29,7 +29,7 @@ include dirname(__FILE__) . '/../include/header.php';
 
         <div class="article-sheet">
           <header class="article-sheet-header">
-            <p>主管機關：馬來西亞智慧財產局（Intellectual Property Corporation of Malaysia，MyIPO）</p>
+            <p>主管機關：<a href="https://www.myipo.gov.my/" target="_blank" rel="noopener noreferrer">馬來西亞智慧財產局（Intellectual Property Corporation of Malaysia，MyIPO）</a></p>
           </header>
 
           <section class="article-row">
