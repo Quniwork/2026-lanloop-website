@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-03",
+  "font_stack": "Inter and Noto Sans TC via Google Fonts",
+  "palette": "Existing cool light, ink and Lan Loop blue custom properties",
+  "motion": "Native CSS and JavaScript; no motion library",
+  "spacing": "Existing custom spacing with a 1300px container",
+  "framework": "PHP, HTML, CSS and JavaScript",
+  "compatibility": "PHP 5.2.17"
+}

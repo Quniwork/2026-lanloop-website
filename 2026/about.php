@@ -16,7 +16,7 @@ include dirname(__FILE__) . '/include/header.php';
       <header class="page-header" aria-labelledby="about-title">
         <h1 id="about-title">關於我們 <small>About Lan Loop</small></h1>
         <nav class="page-breadcrumb" aria-label="麵包屑">
-          <a href="index">首頁</a>
+          <a href="index.php">首頁</a>
           <span aria-hidden="true">/</span>
           <span aria-current="page">關於我們</span>
         </nav>

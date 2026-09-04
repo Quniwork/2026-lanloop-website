@@ -7,379 +7,403 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/about</loc>
+    <loc>https://www.lanloop.com.tw/about.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/services</loc>
+    <loc>https://www.lanloop.com.tw/services.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/domestic-patent</loc>
+    <loc>https://www.lanloop.com.tw/domestic-patent.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/domestic-trademark</loc>
+    <loc>https://www.lanloop.com.tw/domestic-trademark.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/china-patent</loc>
+    <loc>https://www.lanloop.com.tw/china-patent.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/links</loc>
+    <loc>https://www.lanloop.com.tw/links.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/contact</loc>
+    <loc>https://www.lanloop.com.tw/contact.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/australia</loc>
+    <loc>https://www.lanloop.com.tw/en/index.php</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.lanloop.com.tw/en/about.php</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.lanloop.com.tw/en/services.php</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.lanloop.com.tw/en/contact.php</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.lanloop.com.tw/foreign-patent/australia.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/brazil</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/brazil.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/canada</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/canada.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/chile</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/chile.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/china</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/china.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/france</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/france.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/germany</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/germany.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/india</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/india.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/indonesia</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/indonesia.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/italy</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/italy.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/japan</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/japan.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/korea</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/korea.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/malaysia</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/malaysia.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/new-zealand</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/new-zealand.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/philippines</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/philippines.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/saudi-arabia</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/saudi-arabia.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/singapore</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/singapore.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/spain</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/spain.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/thailand</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/thailand.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/uae</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/uae.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/uk</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/uk.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/usa</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/usa.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-patent/vietnam</loc>
+    <loc>https://www.lanloop.com.tw/foreign-patent/vietnam.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/argentina</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/argentina.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/australia</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/australia.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/brazil</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/brazil.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/canada</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/canada.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/chile</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/chile.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/china</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/china.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/colombia</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/colombia.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/eu</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/eu.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/france</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/france.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/germany</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/germany.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/hong-kong</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/hong-kong.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/india</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/india.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/indonesia</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/indonesia.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/israel</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/israel.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/italy</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/italy.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/japan</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/japan.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/korea</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/korea.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/macao</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/macao.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/malaysia</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/malaysia.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/new-zealand</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/new-zealand.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/philippines</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/philippines.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/russia</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/russia.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/saudi-arabia</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/saudi-arabia.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/singapore</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/singapore.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/south-africa</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/south-africa.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/spain</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/spain.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/thailand</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/thailand.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/uae</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/uae.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/uk</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/uk.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/usa</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/usa.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.lanloop.com.tw/foreign-trademark/vietnam</loc>
+    <loc>https://www.lanloop.com.tw/foreign-trademark/vietnam.php</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>

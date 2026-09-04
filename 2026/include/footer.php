@@ -92,6 +92,49 @@
 
   </div><!-- .page -->
 
+  <script>
+    (function () {
+      var switches = document.querySelectorAll('[data-language-switch]');
+
+      function closeLanguageMenus(except) {
+        for (var i = 0; i < switches.length; i += 1) {
+          if (switches[i] !== except) {
+            switches[i].classList.remove('is-open');
+            switches[i].querySelector('.nav-lang').setAttribute('aria-expanded', 'false');
+          }
+        }
+      }
+
+      for (var i = 0; i < switches.length; i += 1) {
+        (function (wrap) {
+          var button = wrap.querySelector('.nav-lang');
+          button.addEventListener('click', function () {
+            var willOpen = !wrap.classList.contains('is-open');
+            closeLanguageMenus(wrap);
+            wrap.classList.toggle('is-open', willOpen);
+            button.setAttribute('aria-expanded', willOpen ? 'true' : 'false');
+          });
+        }(switches[i]));
+      }
+
+      document.addEventListener('click', function (event) {
+        if (!event.target.closest('[data-language-switch]')) { closeLanguageMenus(); }
+      });
+
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') {
+          for (var i = 0; i < switches.length; i += 1) {
+            if (switches[i].classList.contains('is-open')) {
+              switches[i].classList.remove('is-open');
+              switches[i].querySelector('.nav-lang').setAttribute('aria-expanded', 'false');
+              switches[i].querySelector('.nav-lang').focus();
+            }
+          }
+        }
+      });
+    }());
+  </script>
+
   <!-- ============================================================
      JAVASCRIPT
 ============================================================ -->
