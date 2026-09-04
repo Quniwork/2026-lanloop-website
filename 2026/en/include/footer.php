@@ -17,12 +17,14 @@
               <div class="contact-item"><div class="contact-item-label">Email</div><div class="contact-item-val email-val"><a href="mailto:lanloop.lucky@msa.hinet.net">lanloop.lucky@msa.hinet.net</a></div></div>
             </div>
             <div class="footer-locations">
-              <h2>Office</h2>
-              <p class="location-address"><a href="https://maps.google.com/?q=Rm.%20A5%2C%207F.%2C%20No.%20689-28%2C%20Xiaodong%20Rd.%2C%20Yongkang%20Dist.%2C%20Tainan%20City%20710%2C%20Taiwan" target="_blank" rel="noopener noreferrer">Rm. A5, 7F., No. 689-28, Xiaodong Rd., Yongkang Dist., Tainan City 710, Taiwan</a></p>
-              <div class="footer-page-links" aria-label="English pages">
-                <a href="en/about.php">About Us</a>
-                <a href="en/services.php">Services</a>
-                <a href="en/contact.php">Contact Us</a>
+              <h2 style="margin-block-end: var(--space-sm);">Address</h2>
+              <p class="location-address"><a href="https://maps.google.com/?q=Rm.%20A5%2C%207F.%2C%20No.%20689-28%2C%20Xiaodong%20Rd.%2C%20Yongkang%20Dist.%2C%20Tainan%20City%20710%2C%20Taiwan" target="_blank" rel="noopener noreferrer">Rm. A5, 7F., No. 689-28, Xiaodong Rd., Yongkang Dist., Tainan City 710, Taiwan (Google Map)</a></p>
+              <div class="mapbox-preview" role="region" aria-label="Office location map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.6796452068916!2d120.23717807531305!3d22.998804879190427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e76c8a9fc9061%3A0xa8917eb27346f445!2zNzEw6Ie65Y2X5biC5rC45bq35Y2A5Lit6I-v6YeM5bCP5p2x6LevNjg55LmLMjnomZ83IGE1!5e0!3m2!1szh-TW!2stw!4v1787543933913!5m2!1szh-TW!2stw"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  title="Office location map"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
               </div>
             </div>
           </div>

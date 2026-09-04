@@ -37,8 +37,7 @@ body {
 .en-site .mobile-nav-link,
 .en-site .btn,
 .en-site .pill,
-.en-site .page-breadcrumb a,
-.en-site .footer a {
+.en-site .page-breadcrumb a {
   white-space: nowrap;
 }
 
@@ -57,7 +56,7 @@ body {
   max-width: 13ch;
   margin-block-end: var(--space-lg);
   color: var(--color-ink);
-  font-size: var(--text-display);
+  font-size: clamp(2.5rem, 4.1vw + 0.45rem, 4.5rem);
   font-weight: 700;
   line-height: 1.01;
   letter-spacing: -0.025em;
@@ -118,6 +117,10 @@ body {
   position: relative;
 }
 
+.en-site .en-countries {
+  background: #fafdff;
+}
+
 .en-site .en-countries .section-title {
   max-width: 25ch;
   margin-block-end: 0;
@@ -155,10 +158,11 @@ body {
 }
 
 .en-site .en-global-partner h2 {
-  max-width: 18ch;
   color: var(--color-ink);
   font-family: var(--font-display);
   font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: -0.03em;
 }
 
 .en-site .en-global-partner .bridge-copy > p {
@@ -167,6 +171,7 @@ body {
   font-size: var(--text-base);
   line-height: 1.65;
 }
+
 
 .en-site .en-global-partner .stat-num {
   font-family: var(--font-display);
@@ -191,47 +196,6 @@ body {
   color: var(--color-ink);
   font-family: var(--font-body);
   white-space: nowrap;
-}
-
-.en-about-band {
-  padding-block: var(--space-3xl);
-  background: var(--color-paper-2);
-  color: var(--color-ink);
-}
-
-.en-about-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
-  gap: var(--space-3xl);
-  align-items: center;
-}
-
-.en-about-copy h2 {
-  max-width: 15ch;
-  margin-block-end: var(--space-lg);
-  font-size: clamp(2.2rem, 4vw, 3.5rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
-}
-
-.en-about-copy p {
-  max-width: 62ch;
-  color: var(--color-ink-2);
-  line-height: 1.7;
-}
-
-.en-about-copy .btn {
-  margin-block-start: var(--space-xl);
-}
-
-.en-about-image {
-  min-width: 0;
-}
-
-.en-about-image img {
-  width: 100%;
-  height: auto;
-  border-radius: var(--radius-lg);
 }
 
 .en-site .page-header h1 {
@@ -359,13 +323,8 @@ body {
     padding-inline-start: var(--space-lg);
   }
 
-  .en-site .quick-row,
-  .en-about-grid {
+  .en-site .quick-row {
     grid-template-columns: minmax(0, 1fr);
-  }
-
-  .en-about-grid {
-    gap: var(--space-2xl);
   }
 
   .en-site .en-global-partner .bridge-inner {
@@ -403,7 +362,6 @@ body {
     width: 100%;
   }
 
-  .en-about-band,
   .en-site .en-countries {
     padding-block: var(--space-2xl);
   }

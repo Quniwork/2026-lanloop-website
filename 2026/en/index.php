@@ -144,18 +144,6 @@ include dirname(__FILE__) . '/include/header.php';
     </div>
   </section>
 
-  <section class="en-about-band" aria-labelledby="about-title">
-    <div class="container en-about-grid">
-      <div class="en-about-copy reveal">
-        <h2 id="about-title">Based in Tainan. Working across borders.</h2>
-        <p>Established in 1993, Lan Loop International Patent and Trademark Office provides professional intellectual property services for domestic and international matters. We help clients understand prior rights, reduce avoidable research and filing costs, and improve filing strategies before an application is submitted.</p>
-        <a class="btn btn-primary" href="en/about.php">About Lan Loop <span class="btn-arrow" aria-hidden="true">&rarr;</span></a>
-      </div>
-      <figure class="en-about-image reveal reveal-delay-1">
-        <img src="assets/images/page2_img1.webp" alt="Lan Loop International Patent and Trademark Office" width="338" height="250" loading="lazy" decoding="async">
-      </figure>
-    </div>
-  </section>
 </main>
 
 <?php include dirname(__FILE__) . '/include/footer.php'; ?>
